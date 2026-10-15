@@ -10,8 +10,8 @@
       "sha256": "59ca599cf3253fa3743517819e8dac238ab624587337e0bfcbc43c3a363577be"
     },
     "CITATION.cff": {
-      "bytes": 700,
-      "sha256": "12e8cc17d750e6e6a6318baca8a77f45602a184de3f5b66757a4fc220e7520f7"
+      "bytes": 860,
+      "sha256": "49d19a9534d2f26c804c2946e082bbb148d1136b43a7355d10fdcfbb532f3089"
     },
     "docs/model_and_results.zh-CN.md": {
       "bytes": 10977,
@@ -1526,8 +1526,8 @@
       "sha256": "bdbe27a816d365b62c9183ea812c6e5a7c06f3101dc2b9392fde10175f559e9c"
     },
     "README.md": {
-      "bytes": 5572,
-      "sha256": "d0bf4ce96451e7c1fe539626e2a5c941607f865eccc50bd78c37e365e01f8c05"
+      "bytes": 5673,
+      "sha256": "bc0120e921d5b2b86bdc392ab715d017694cd1e4ca440b27eaba38082fa70e3d"
     },
     "requirements.txt": {
       "bytes": 28,

@@ -1,4 +1,4 @@
-# Shao 2025 InGaAs PT-APD — Sentaurus 2D study
+# Reproduction of “Efficient Responsivity Enhancement of Surface-Illuminated InGaAs Avalanche Photodiode by Photon Trapping on the SOI Substrate”
 
 二维三孔截面的源工程、真实仿真结果与备份，覆盖 SDE 和论文 Figure 2、3、4、7。研究环境为 Sentaurus X-2025.06。**这是经过审核的二维基线，包含一次公共雪崩参数校准；尚未实现论文的完整定量复现。**
 
