@@ -1,0 +1,63 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vX-2025.06, saved by gsub0
+
+# --- simulation flow
+sde sde "" {}
+sde a_nm "625" {625} V
+sde r_nm "250" {250} V
+sde h_nm "220" {220} V
+sde D_nm "80" {80} V
+sde Tp_nm "100" {100} V
+sde Ta_nm "250" {250} V
+sde Tg_nm "50" {50} V
+sde Tc_nm "50" {50} V
+sde Tm_nm "200" {200} V
+sde Tn_nm "50" {50} V
+sde Tbond_nm "300" {300} V
+sde Tsi_nm "220" {220} V
+sde Tbox_nm "2000" {2000} V
+sde Tsub_nm "500" {500} V
+sde Tclad_nm "100" {100} V
+sde NAp "5e+18" {5e+18} V
+sde NAc "7.5e+17" {7.5e+17} V
+sde NDn "5e+18" {5e+18} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default a_nm ""
+scenario default r_nm ""
+scenario default h_nm ""
+scenario default D_nm ""
+scenario default Tp_nm ""
+scenario default Ta_nm ""
+scenario default Tg_nm ""
+scenario default Tc_nm ""
+scenario default Tm_nm ""
+scenario default Tn_nm ""
+scenario default Tbond_nm ""
+scenario default Tsi_nm ""
+scenario default Tbox_nm ""
+scenario default Tsub_nm ""
+scenario default Tclad_nm ""
+scenario default NAp ""
+scenario default NAc ""
+scenario default NDn ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {625} {default} 0
+2 3 2 {250} {default} 0
+3 4 3 {220} {default} 0
+4 5 4 {80} {default} 0
+5 6 5 {100} {default} 0
+6 7 6 {250} {default} 0
+7 8 7 {50} {default} 0
+8 9 8 {50} {default} 0
+9 10 9 {200} {default} 0
+10 11 10 {50} {default} 0
+11 12 11 {300} {default} 0
+12 13 12 {220} {default} 0
+13 14 13 {2000} {default} 0
+14 15 14 {500} {default} 0
+15 16 15 {100} {default} 0
+16 17 16 {5e+18} {default} 0
+17 18 17 {7.5e+17} {default} 0
+18 19 18 {5e+18} {default} 0

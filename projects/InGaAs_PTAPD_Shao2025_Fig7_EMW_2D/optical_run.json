@@ -1,0 +1,49 @@
+{
+  "run_id": "Shao2025_Fig7_EMW_20261015_projectioncheck1",
+  "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_EMW_2D",
+  "status": "audited_generation_ready",
+  "nodes": [
+    10,
+    11,
+    12
+  ],
+  "created_utc": "2026-10-15T03:00:30.984366+00:00",
+  "source_sha256": {
+    "emw_eml.cmd": "4c3912eb4633874fb89e1f6095f368201457488bef6c44c977c301a60ce0e779",
+    "run_optical.py": "a265502c0cb9a0181d50fc3a266bb79d547f64172132e8c1c78caf885547e1dc",
+    "emw.par": "1e7278e756674f8bf59187848e2789c3b478a64f0549cbc5fc299e0d83d15d95",
+    "optical_inputs.json": "7748938fb0254e63eba9d42c3016f5ed71a9d80b118565157feb4c1bf82ae2d0",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "mesh_Control.tdr": "ca9fac69b6a05728f2b590c8405bdec38cb1cd38572064f8c1108982caa356a2",
+    "mesh_Slanted.tdr": "2ae5eafc92a044ae28d3a3036ff27a76050a659ba77b80f1e25d50bf9712a779",
+    "model_basis.json": "c5ee5630de2484236c4ac52cb602cca9410dcc7729b3e25bfff76b8841823570"
+  },
+  "case_map_sha256": "dcdfcefc6acf95b5629d5f1ef8976467d9b306dc7e8a64dd8f7889d717910852",
+  "submitted_utc": "2026-10-15T03:10:27.774597+00:00",
+  "submitted_epoch_s": 1792033827.774621,
+  "audited_utc": "2026-10-15T03:20:48.334179+00:00",
+  "attempt_history": [
+    {
+      "run_id": "Shao2025_Fig7_EMW_20261015_native1",
+      "nodes": [
+        3,
+        5,
+        6
+      ],
+      "meaning": "10-degree tilt projected within 2D hole-row plane; all three energy audits passed; strong angular resonance shift is a property of the 2D-slot approximation, not fitted away."
+    }
+  ],
+  "previous_nodes": [
+    3,
+    5,
+    6
+  ],
+  "all_nodes": [
+    3,
+    10,
+    5,
+    11,
+    6,
+    12
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "all_forbidden_regions_zero": true,
+  "samples": [
+    {
+      "node": "47",
+      "region": "R.Grading0",
+      "bandgap_eV": 0.7837777893,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 41648294.6705,
+      "eligible": true
+    },
+    {
+      "node": "47",
+      "region": "R.Grading1",
+      "bandgap_eV": 0.876820026917,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Grading2",
+      "bandgap_eV": 0.969862264534,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Grading3",
+      "bandgap_eV": 1.06290450215,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Grading4",
+      "bandgap_eV": 1.15594673977,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Grading5",
+      "bandgap_eV": 1.24898897739,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Grading6",
+      "bandgap_eV": 1.342031215,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Grading7",
+      "bandgap_eV": 1.43507345262,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Charge",
+      "bandgap_eV": 1.48159457143,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "47",
+      "region": "R.Multiplier",
+      "bandgap_eV": 1.48159457143,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading0",
+      "bandgap_eV": 0.7837777893,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 280181075.206,
+      "eligible": true
+    },
+    {
+      "node": "50",
+      "region": "R.Grading1",
+      "bandgap_eV": 0.876820026917,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading2",
+      "bandgap_eV": 0.969862264534,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading3",
+      "bandgap_eV": 1.06290450215,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading4",
+      "bandgap_eV": 1.15594673977,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading5",
+      "bandgap_eV": 1.24898897739,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading6",
+      "bandgap_eV": 1.342031215,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Grading7",
+      "bandgap_eV": 1.43507345262,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Charge",
+      "bandgap_eV": 1.48159457143,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "50",
+      "region": "R.Multiplier",
+      "bandgap_eV": 1.48159457143,
+      "photon_energy_eV": 0.799898054408,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading0",
+      "bandgap_eV": 0.7837777893,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading1",
+      "bandgap_eV": 0.876820026917,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading2",
+      "bandgap_eV": 0.969862264534,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading3",
+      "bandgap_eV": 1.06290450215,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading4",
+      "bandgap_eV": 1.15594673977,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading5",
+      "bandgap_eV": 1.24898897739,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading6",
+      "bandgap_eV": 1.342031215,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Grading7",
+      "bandgap_eV": 1.43507345262,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Charge",
+      "bandgap_eV": 1.48159457143,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    },
+    {
+      "node": "53",
+      "region": "R.Multiplier",
+      "bandgap_eV": 1.48159457143,
+      "photon_energy_eV": 0.762510445469,
+      "G_pairs_s": 0.0,
+      "eligible": false
+    }
+  ]
+}

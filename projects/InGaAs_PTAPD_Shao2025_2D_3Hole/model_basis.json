@@ -1,0 +1,89 @@
+{
+  "paper": {
+    "title": "Efficient Responsivity Enhancement of Surface-Illuminated InGaAs Avalanche Photodiode by Photon Trapping on the SOI Substrate",
+    "authors": "Rui Shao et al.",
+    "year": 2025,
+    "doi": "10.1109/TED.2025.3544972"
+  },
+  "scope": "ONE two-dimensional three-hole x-z section; no 3D or full mesa, no SDevice",
+  "units": "geometry nm in Workbench, um in SDE; doping cm^-3",
+  "published_parameters": [
+    "a_nm",
+    "r_nm",
+    "h_nm",
+    "D_nm",
+    "Ta_nm",
+    "Tm_nm",
+    "Tbond_nm",
+    "Tsi_nm"
+  ],
+  "figure_estimates": {
+    "Tp_nm": {
+      "value": 100,
+      "basis": "Fig.3 scale: bottom III-V contact approximately z=0..100 nm"
+    },
+    "Tg_nm": {
+      "value": 50,
+      "basis": "Fig.3/4 layer allocation approximately 350..400 nm; not an epitaxial table"
+    },
+    "Tc_nm": {
+      "value": 50,
+      "basis": "Fig.3/4 layer allocation approximately 400..450 nm; not an epitaxial table"
+    },
+    "Tn_nm": {
+      "value": 50,
+      "basis": "Fig.3 upper contact approximately 650..700 nm"
+    }
+  },
+  "engineering_assumptions": {
+    "Tbox_nm": 2000,
+    "Tsub_nm": 500,
+    "Tclad_nm": 100,
+    "NAp_cm-3": 5e+18,
+    "NAc_cm-3": 7.5e+17,
+    "NDn_cm-3": 5e+18,
+    "intrinsic_layer_net_doping_cm-3": 0,
+    "hole_fill": "SU8 after adhesive bonding; not explicitly specified; may be changed for a void model",
+    "charge_sheet_density_cm-2": 3750000000000.0,
+    "charge_rationale": "Order-of-magnitude sheet charge from Gauss law for a several 1e5 V/cm field difference at 50 nm; not fitted or electrically validated",
+    "grade": "8 intrinsic AlInGaAs composition slices; Al=0..0.48 and In=0.53..0.52",
+    "contacts": "Equivalent n++ upper plane and four p++ bottom segments; real metal pad dimensions unavailable",
+    "substrate": "220 nm SOI device silicon, assumed BOX and truncated handle; not full wafer",
+    "out_of_plane": "2D translational section; cannot reproduce a 2D photonic crystal quantitatively"
+  },
+  "geometry": {
+    "number_of_holes": 3,
+    "section_width_nm": 1875,
+    "hole_centers_nm": [
+      -625,
+      0,
+      625
+    ],
+    "hole_bottom_width_nm": 500,
+    "hole_top_width_nm": 340,
+    "III_V_total_nm": 700,
+    "coordinate_mapping": "SDE X=paper x; SDE Y=paper z",
+    "grading_segments": 8
+  },
+  "parameters": {
+    "a_nm": 625,
+    "r_nm": 250,
+    "h_nm": 220,
+    "D_nm": 80,
+    "Tp_nm": 100,
+    "Ta_nm": 250,
+    "Tg_nm": 50,
+    "Tc_nm": 50,
+    "Tm_nm": 200,
+    "Tn_nm": 50,
+    "Tbond_nm": 300,
+    "Tsi_nm": 220,
+    "Tbox_nm": 2000,
+    "Tsub_nm": 500,
+    "Tclad_nm": 100,
+    "NAp": 5e+18,
+    "NAc": 7.5e+17,
+    "NDn": 5e+18
+  },
+  "related_literature_check": "Same-team flexible APD paper DOI 10.1038/s41467-025-64401-2 has 2 um absorber/1.2 um multiplication layer, so its stack was not substituted for this TED device."
+}

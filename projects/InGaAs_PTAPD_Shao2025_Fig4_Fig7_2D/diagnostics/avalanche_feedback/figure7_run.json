@@ -1,0 +1,26 @@
+{
+  "run_id": "Shao2025_Fig4_20261015_bandalignfix2",
+  "status": "audited_field_avalanche_baseline",
+  "nodes": [
+    8,
+    15
+  ],
+  "submitted_nodes": [
+    8,
+    15
+  ],
+  "source_sha256": {
+    "sdevice_des.cmd": "eb747331d7aa90cc3fa313edf49b5ff8b6a70908030055a7e65a9d6e41ffadbe",
+    "sdevice.par": "fa6e6ded1299325b816ea313b22ac86c694a70ce9170d26cc09b1888fd35d62f",
+    "mesh_Control.tdr": "f4157716553baf22e903413a2c7a283d8d879ba81a6a950dd0cd3b902264fd80",
+    "mesh_Cylinder.tdr": "4d079b5b4dfe39e652789a40871210acfde0d8dcbbfd2a42cb0d59b75a0874b0"
+  },
+  "submitted_epoch_s": 1792038058.696183,
+  "attempt_history": [
+    {
+      "run_id": "Shao2025_Fig4_20261015_avalanche_feedback1",
+      "status": "audited_field_avalanche_baseline",
+      "reason": "Superseded by correction of grade Eg/affinity alignment to actual native endpoint materials; geometry, mesh, lifetime, surface model and optical inputs unchanged."
+    }
+  ]
+}

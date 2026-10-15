@@ -1,0 +1,115 @@
+{
+  "paper_doi": "10.1109/TED.2025.3544972",
+  "target": "Final Fig4 fields at23.8V for Control,Cylinder,Slanted; same corrected material and calibrated avalanche parameters as Fig7.",
+  "dimension": 2,
+  "holes": 3,
+  "parent_projects_preserved": true,
+  "coordinate_mapping": "X=paper x, Y=-paper z",
+  "geometries": {
+    "Control": "no holes",
+    "Cylinder": "D=0, Fig.4 electrical simulation",
+    "Slanted": "D=80 nm nominal, Fig.7 fabricated PT surrogate; SEM reports about 77 nm"
+  },
+  "published_nm": {
+    "a": 625,
+    "r": 250,
+    "h": 220,
+    "absorber": 250,
+    "multiplier": 200,
+    "SU8_bond": 300
+  },
+  "inherited_estimates_nm": {
+    "PContact": 100,
+    "grading": 50,
+    "charge": 50,
+    "NContact": 50,
+    "SU8_cladding": 100
+  },
+  "assumptions": {
+    "p_doping_cm3": 5e+18,
+    "n_doping_cm3": 5e+18,
+    "charge_doping_cm3": 7.5e+17,
+    "intrinsic_net_doping_cm3": 0,
+    "lifetime_s": 1e-09,
+    "InGaAs_SU8_surface_velocity_cm_s": 100000.0,
+    "grading": "eight-step linear band edge/epsilon/DOS interpolation; no installed AlInGaAs parameter file, so active transport parameters provided explicitly",
+    "grading_band_edges": "Aligned to actual installed endpoints at300K: Eg=0.737256670491→1.48159457143eV; chi=4.63228231475→4.27110142857eV. Eight midpoint layers. No response fitting.",
+    "dielectric_epsilon_r": 3.2,
+    "electrical_passive_stack": "truncate at 300 nm SU8 below epi, electrically floating SOI excluded; outer dielectric Neumann boundary",
+    "temperature_K": 300
+  },
+  "transport_models": [
+    "Fermi",
+    "Thermionic",
+    "DD",
+    "high-field saturation",
+    "SRH",
+    "Auger",
+    "radiative",
+    "neutral SurfaceSRH"
+  ],
+  "avalanche_reference": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5236056/",
+    "table": 1,
+    "material": "InAlAs",
+    "note": "local model; thin-layer dead-space not resolved. Not yet validated for this device."
+  },
+  "staging": "All current Field nodes include avalanche. Previous AV-off and band-inconsistent diagnostic versions are in backups.",
+  "current_geometry_normalization": {
+    "mesa_area_um2": 706.8583470577034,
+    "PC_area_um2": 156.25,
+    "illumination_equivalent_area_um2": 84.94866535306801,
+    "2D_strip_area_um2": 1.875,
+    "rule": "dark PT = PC-area*PT-strip density + remainder*control-strip density; photocurrent = illuminated-area*(light-dark strip current density); uniform effective spot assumption, no fitted output multiplier"
+  },
+  "paper_targets": {
+    "field_control_MV_cm": 0.73,
+    "field_PT_cylinder_MV_cm": 0.682,
+    "br_control_V": 24.0,
+    "br_PT_V": 24.2,
+    "punch_control_V": 12.8,
+    "punch_PT_V": 4.0,
+    "dark_90pc_br_control_A": 1.69e-08,
+    "dark_90pc_br_PT_A": 5.13e-08,
+    "R_control_1550_A_W": 0.3,
+    "R_PT_1550_A_W": 0.39,
+    "R_PT_1626_A_W": 0.75,
+    "IV_light_dBm": -34.9,
+    "power_sweep_uW": [
+      0.1023,
+      10.23
+    ]
+  },
+  "numerical_revision": "Unified Recombination block activates avalanche verified in native output; n0=p0=1e12 consistently for HFS and avalanche density interpolation; SUPER 80-bit.",
+  "transport_staging": "First compare AV-off collection and literature local-avalanche dark sweep. Same doping, lifetimes and surface model for all geometries. Resistor=1e7 ohm um is a numerical load line; curves use actual inner contact voltage.",
+  "optical_scenario": "zero in-plane projected angle for all three wavelength/geometry cases; experiment tilt 10 degrees with unspecified azimuth, full 3D tilt not represented",
+  "optical_normalization": "native EMW incident reference power and 84.949 um2 uniform-equivalent spot, no empirical output multiplier",
+  "avalanche_regularization": "GradQuasiFermi to ElectricField interpolation n0=p0=1e8 in HFS and avalanche; no ionization-coefficient change",
+  "avalanche_calibration": {
+    "type": "single-anchor common physical-parameter calibration",
+    "ionization_model": "vanOverstraeten local InAlAs, literature a,b baseline",
+    "b_scale_all_InAlAs_and_grading": 1.182,
+    "a_scale": 1,
+    "fit_target": "Control breakdown 24.0 V",
+    "raw_control_breakdown_probe_inner_V": 17.604212,
+    "raw_control_breakdown_probe_E_V_cm": 659318.87,
+    "raw_native_current_threshold_A_per_um": 3e-07,
+    "estimated_control_field_at24V_V_cm": 779250.7,
+    "rule": "Scale both electron/hole exponential field parameters by the same factor, estimated from field needed at 24 V divided by raw ionization threshold field. This calibrates the model, not output current. PT breakdown and all optical responsivities are unfit validation targets.",
+    "not_author_parameters": true
+  },
+  "unit_gain_reference": "AV-off collection reference at 23.8 V, matching Fig4 bias. The paper does not specify the M=1 extraction bias. All other physical parameters and normalizations unchanged. Separate 20-V scans retained to quantify reference-bias dependence; not blended into 23.8-V curves.",
+  "power_levels_uW": [
+    0.1023,
+    0.3235936569296281,
+    1.023,
+    3.235936569296281,
+    10.23
+  ],
+  "mesh_vertices": {
+    "Control": 3360,
+    "Slanted": 4616
+  },
+  "caveat": "2D three slots and area tiling; missing epitaxy/interface/lifetime inputs. Not a claim of 3D quantitative reproduction.",
+  "band_alignment_correction": "Earlier assumed grade endpoints were inconsistent with actual vendor endpoint affinities, causing an extra0.16eV entry step and0.19eV exit discontinuity. Corrected before final delivery; all electrical cases recomputed with one common parameter file."
+}

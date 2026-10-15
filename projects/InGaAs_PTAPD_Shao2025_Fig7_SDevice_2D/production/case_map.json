@@ -1,0 +1,92 @@
+{
+  "8": {
+    "Geometry": "Control",
+    "Mode": "Dark",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "0",
+    "Bias_V": "28",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-08"
+  },
+  "14": {
+    "Geometry": "Control",
+    "Mode": "Light",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "0.3235936569296281",
+    "Bias_V": "28",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-08"
+  },
+  "33": {
+    "Geometry": "Control",
+    "Mode": "Power",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "10.23",
+    "Bias_V": "20",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-08"
+  },
+  "47": {
+    "Geometry": "Control",
+    "Mode": "Power",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "10.23",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-08"
+  },
+  "21": {
+    "Geometry": "Slanted",
+    "Mode": "Dark",
+    "Lambda_nm": "1626",
+    "PhotoPower_uW": "0",
+    "Bias_V": "28",
+    "Angle_deg": "0",
+    "RefPower_W": "1.8736499638361272e-08"
+  },
+  "27": {
+    "Geometry": "Slanted",
+    "Mode": "Light",
+    "Lambda_nm": "1626",
+    "PhotoPower_uW": "0.3235936569296281",
+    "Bias_V": "28",
+    "Angle_deg": "0",
+    "RefPower_W": "1.8736499638361272e-08"
+  },
+  "39": {
+    "Geometry": "Slanted",
+    "Mode": "Power",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "10.23",
+    "Bias_V": "20",
+    "Angle_deg": "0",
+    "RefPower_W": "1.8726704251715254e-08"
+  },
+  "50": {
+    "Geometry": "Slanted",
+    "Mode": "Power",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "10.23",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.8726704251715254e-08"
+  },
+  "44": {
+    "Geometry": "Slanted",
+    "Mode": "Power",
+    "Lambda_nm": "1626",
+    "PhotoPower_uW": "10.23",
+    "Bias_V": "20",
+    "Angle_deg": "0",
+    "RefPower_W": "1.8736499638361272e-08"
+  },
+  "53": {
+    "Geometry": "Slanted",
+    "Mode": "Power",
+    "Lambda_nm": "1626",
+    "PhotoPower_uW": "10.23",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.8736499638361272e-08"
+  }
+}

@@ -1,0 +1,75 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vX-2025.06, saved by gsub0
+
+# --- simulation flow
+sdevice sdevice "" {}
+sdevice Geometry "Control" {Control Slanted} V
+sdevice Mode "Dark" {Dark Light Power} V
+sdevice Lambda_nm "1550" {1550 1626} V
+sdevice PhotoPower_uW "0" {0 0.3235936569296281 10.23} V
+sdevice Bias_V "28" {28 20 23.8} V
+sdevice Angle_deg "0" {0} V
+sdevice RefPower_W "1.874206334855649e-08" {1.874206334855649e-08 1.8736499638361272e-08 1.8726704251715254e-08} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default Geometry ""
+scenario default Mode ""
+scenario default Lambda_nm ""
+scenario default PhotoPower_uW ""
+scenario default Bias_V ""
+scenario default Angle_deg ""
+scenario default RefPower_W ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {Control} {default} 0
+2 3 2 {Dark} {default} 0
+3 4 3 {1550} {default} 0
+4 5 4 {0} {default} 0
+5 6 5 {28} {default} 0
+6 7 6 {0} {default} 0
+7 8 7 {1.874206334855649e-08} {default} 0
+2 9 2 {Light} {default} 0
+3 10 9 {1550} {default} 0
+4 11 10 {0.3235936569296281} {default} 0
+5 12 11 {28} {default} 0
+6 13 12 {0} {default} 0
+7 14 13 {1.874206334855649e-08} {default} 0
+2 28 2 {Power} {default} 0
+3 29 28 {1550} {default} 0
+4 30 29 {10.23} {default} 0
+5 31 30 {20} {default} 0
+6 32 31 {0} {default} 0
+7 33 32 {1.874206334855649e-08} {default} 0
+5 45 30 {23.8} {default} 0
+6 46 45 {0} {default} 0
+7 47 46 {1.874206334855649e-08} {default} 0
+1 15 1 {Slanted} {default} 0
+2 16 15 {Dark} {default} 0
+3 17 16 {1626} {default} 0
+4 18 17 {0} {default} 0
+5 19 18 {28} {default} 0
+6 20 19 {0} {default} 0
+7 21 20 {1.8736499638361272e-08} {default} 0
+2 22 15 {Light} {default} 0
+3 23 22 {1626} {default} 0
+4 24 23 {0.3235936569296281} {default} 0
+5 25 24 {28} {default} 0
+6 26 25 {0} {default} 0
+7 27 26 {1.8736499638361272e-08} {default} 0
+2 34 15 {Power} {default} 0
+3 35 34 {1550} {default} 0
+4 36 35 {10.23} {default} 0
+5 37 36 {20} {default} 0
+6 38 37 {0} {default} 0
+7 39 38 {1.8726704251715254e-08} {default} 0
+5 48 36 {23.8} {default} 0
+6 49 48 {0} {default} 0
+7 50 49 {1.8726704251715254e-08} {default} 0
+3 40 34 {1626} {default} 0
+4 41 40 {10.23} {default} 0
+5 42 41 {20} {default} 0
+6 43 42 {0} {default} 0
+7 44 43 {1.8736499638361272e-08} {default} 0
+5 51 41 {23.8} {default} 0
+6 52 51 {0} {default} 0
+7 53 52 {1.8736499638361272e-08} {default} 0

@@ -1,0 +1,372 @@
+{
+  "6": {
+    "case": "PT",
+    "wavelength_nm": 1615,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "7": {
+    "case": "PT",
+    "wavelength_nm": 1520,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "8": {
+    "case": "PT",
+    "wavelength_nm": 1525,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "9": {
+    "case": "PT",
+    "wavelength_nm": 1530,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "10": {
+    "case": "PT",
+    "wavelength_nm": 1535,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "11": {
+    "case": "PT",
+    "wavelength_nm": 1540,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "12": {
+    "case": "PT",
+    "wavelength_nm": 1545,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "13": {
+    "case": "PT",
+    "wavelength_nm": 1550,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "14": {
+    "case": "PT",
+    "wavelength_nm": 1555,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "15": {
+    "case": "PT",
+    "wavelength_nm": 1560,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "16": {
+    "case": "PT",
+    "wavelength_nm": 1565,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "17": {
+    "case": "PT",
+    "wavelength_nm": 1570,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "18": {
+    "case": "PT",
+    "wavelength_nm": 1575,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "19": {
+    "case": "PT",
+    "wavelength_nm": 1580,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "20": {
+    "case": "PT",
+    "wavelength_nm": 1585,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "21": {
+    "case": "PT",
+    "wavelength_nm": 1590,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "22": {
+    "case": "PT",
+    "wavelength_nm": 1595,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "23": {
+    "case": "PT",
+    "wavelength_nm": 1600,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "24": {
+    "case": "PT",
+    "wavelength_nm": 1605,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "25": {
+    "case": "PT",
+    "wavelength_nm": 1610,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "26": {
+    "case": "PT",
+    "wavelength_nm": 1620,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "27": {
+    "case": "PT",
+    "wavelength_nm": 1625,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "28": {
+    "case": "PT",
+    "wavelength_nm": 1630,
+    "mesh_nm": 25,
+    "sde_node": 2,
+    "mesh_node": 4
+  },
+  "33": {
+    "case": "Control",
+    "wavelength_nm": 1520,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "34": {
+    "case": "Control",
+    "wavelength_nm": 1525,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "35": {
+    "case": "Control",
+    "wavelength_nm": 1530,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "36": {
+    "case": "Control",
+    "wavelength_nm": 1535,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "37": {
+    "case": "Control",
+    "wavelength_nm": 1540,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "38": {
+    "case": "Control",
+    "wavelength_nm": 1545,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "39": {
+    "case": "Control",
+    "wavelength_nm": 1550,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "40": {
+    "case": "Control",
+    "wavelength_nm": 1555,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "41": {
+    "case": "Control",
+    "wavelength_nm": 1560,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "42": {
+    "case": "Control",
+    "wavelength_nm": 1565,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "43": {
+    "case": "Control",
+    "wavelength_nm": 1570,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "44": {
+    "case": "Control",
+    "wavelength_nm": 1575,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "45": {
+    "case": "Control",
+    "wavelength_nm": 1580,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "46": {
+    "case": "Control",
+    "wavelength_nm": 1585,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "47": {
+    "case": "Control",
+    "wavelength_nm": 1590,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "48": {
+    "case": "Control",
+    "wavelength_nm": 1595,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "49": {
+    "case": "Control",
+    "wavelength_nm": 1600,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "50": {
+    "case": "Control",
+    "wavelength_nm": 1605,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "51": {
+    "case": "Control",
+    "wavelength_nm": 1610,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "52": {
+    "case": "Control",
+    "wavelength_nm": 1615,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "53": {
+    "case": "Control",
+    "wavelength_nm": 1620,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "54": {
+    "case": "Control",
+    "wavelength_nm": 1625,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "55": {
+    "case": "Control",
+    "wavelength_nm": 1630,
+    "mesh_nm": 25,
+    "sde_node": 29,
+    "mesh_node": 31
+  },
+  "58": {
+    "case": "PT",
+    "wavelength_nm": 1570,
+    "mesh_nm": 20,
+    "sde_node": 2,
+    "mesh_node": 56,
+    "role": "mesh_convergence_check"
+  },
+  "59": {
+    "case": "PT",
+    "wavelength_nm": 1615,
+    "mesh_nm": 20,
+    "sde_node": 2,
+    "mesh_node": 56,
+    "role": "mesh_convergence_check"
+  },
+  "60": {
+    "case": "PT",
+    "wavelength_nm": 1620,
+    "mesh_nm": 20,
+    "sde_node": 2,
+    "mesh_node": 56,
+    "role": "mesh_convergence_check"
+  },
+  "63": {
+    "case": "Control",
+    "wavelength_nm": 1565,
+    "mesh_nm": 20,
+    "sde_node": 29,
+    "mesh_node": 61,
+    "role": "mesh_convergence_check"
+  },
+  "64": {
+    "case": "Control",
+    "wavelength_nm": 1610,
+    "mesh_nm": 20,
+    "sde_node": 29,
+    "mesh_node": 61,
+    "role": "mesh_convergence_check"
+  },
+  "65": {
+    "case": "Control",
+    "wavelength_nm": 1615,
+    "mesh_nm": 20,
+    "sde_node": 29,
+    "mesh_node": 61,
+    "role": "mesh_convergence_check"
+  }
+}

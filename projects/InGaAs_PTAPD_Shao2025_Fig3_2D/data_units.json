@@ -1,0 +1,11 @@
+{
+  "x_nm": "nm",
+  "z_nm": "nm",
+  "source_intensity": "W/cm^2, native EMW input",
+  "Time_in_monitor_CSV": "s, native PLT",
+  "TimeStep_fs_and_snapshot_fs": "fs",
+  "I2": "native E field values squared, sum of six sine/cosine vector components; no SI unit conversion asserted",
+  "raw_field_values": "native TDR/SVisual values retained",
+  "displayed_field": "dimensionless I2/max; both per-frame and common normalization delivered",
+  "nN_monitors_csv": "SVisual first dataset, source-plane monitor. All six monitor datasets remain in each native nN_eml.plt."
+}

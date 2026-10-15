@@ -1,0 +1,32 @@
+{
+  "9": {
+    "geometry": "Control",
+    "mesh_factor": 1.0,
+    "Ncharge_cm3": 7.5e+17,
+    "mode": "Field",
+    "wavelength_nm": 1550,
+    "photo_power_uW": 0.0,
+    "bias_V": 23.8,
+    "mesh_node": 4
+  },
+  "17": {
+    "geometry": "Cylinder",
+    "mesh_factor": 1.0,
+    "Ncharge_cm3": 7.5e+17,
+    "mode": "Field",
+    "wavelength_nm": 1550,
+    "photo_power_uW": 0.0,
+    "bias_V": 23.8,
+    "mesh_node": 12
+  },
+  "25": {
+    "geometry": "Slanted",
+    "mesh_factor": 1.0,
+    "Ncharge_cm3": 7.5e+17,
+    "mode": "Field",
+    "wavelength_nm": 1550,
+    "photo_power_uW": 0.0,
+    "bias_V": 23.8,
+    "mesh_node": 20
+  }
+}

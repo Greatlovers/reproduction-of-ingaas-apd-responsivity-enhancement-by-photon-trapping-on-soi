@@ -1,0 +1,5 @@
+# Preserve audited file bytes in both Git and the Release snapshots.
+* -text
+*.png binary
+*.tdr binary
+*.plt binary

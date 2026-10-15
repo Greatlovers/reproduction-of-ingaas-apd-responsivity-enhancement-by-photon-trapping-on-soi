@@ -1,0 +1,38 @@
+{
+  "run_id": "Shao2025_Fig2_2D_20261014_axisfix4",
+  "passed_power_audit": true,
+  "native_field_spatial_audit": "pending",
+  "nodes": {
+    "6": {
+      "case": "PT",
+      "wavelength_nm": 1615,
+      "absorber_fraction": 0.5554385300601299,
+      "responsivity_A_per_W": 0.723506089794507,
+      "reflection": 0.034119493653628236,
+      "transmission": 0.14786160929372041,
+      "total_absorption": 0.8175866865433278,
+      "energy_balance": 0.9995677894906764,
+      "photon_power_relative_error": 1.5866881780457476e-05,
+      "incident_power_W": 1.8726981285465873e-08,
+      "incident_power_relative_error": 0.0012276647751534586,
+      "native_plt_sha256": "071a2c96a28c065d57fdf7a35dfd1732c2fa04715bc567bd5e7495e441cd0839",
+      "native_field_sha256": "faadfff8ab518bb86d201fdf060be25fe080f4ae27d9064de2c3ff824974ec26"
+    },
+    "52": {
+      "case": "Control",
+      "wavelength_nm": 1615,
+      "absorber_fraction": 0.0783755693579172,
+      "responsivity_A_per_W": 0.10209086812077324,
+      "reflection": 0.22503650038158,
+      "transmission": 0.6415974431174936,
+      "total_absorption": 0.1332400946828639,
+      "energy_balance": 0.9998740381819374,
+      "photon_power_relative_error": 1.5891158517300497e-05,
+      "incident_power_W": 1.874361701307107e-08,
+      "incident_power_relative_error": 0.00034042596954286797,
+      "native_plt_sha256": "2094f11ae57c6602bd9bb54e2f34de608164a819a2270d194d84a6ad036bcdc7",
+      "native_field_sha256": "e9f1c698b2442f22925f8a0c1288e734f4fac1fc3e4634bd568e7339e2fe6038"
+    }
+  },
+  "responsivity_model": "absorber-only eta=1; no empirical scaling or energy-balance renormalization"
+}

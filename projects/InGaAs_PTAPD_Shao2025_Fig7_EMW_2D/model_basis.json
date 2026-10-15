@@ -1,0 +1,14 @@
+{
+  "paper_figure": 7,
+  "dimension": 2,
+  "holes": 3,
+  "angle_from_normal_deg": 10,
+  "polarization": "TM retained from Figure2; experimental fiber polarization unspecified",
+  "intensity_W_cm2": 1.0,
+  "duration_ps": 1.5,
+  "optical_parameters": "same linear-interpolated n,k and hole/layer geometry as Figure2",
+  "generation": "full III-V absorbed-photon density, including doped InGaAs contacts; actual collection is solved by SDevice. Not restricted to the 250-nm absorber.",
+  "source_power_normalization": "use native incident photon flux times photon energy for each oblique-incidence case; no fitted responsivity multiplier",
+  "assumptions": "2D slots, effective grading index and layer/fill assumptions retained; finite 20x20 3D hole array not represented",
+  "incidence_assumption": "Experiment reports 10-degree tilt but no azimuth relative to the chosen section. Run both 10-degree in-plane tilt and zero in-plane projection, the latter representing an out-of-section tilt approximation that omits out-of-plane Bloch phase. These are 2D sensitivity scenarios, not a full 3D-angle simulation."
+}

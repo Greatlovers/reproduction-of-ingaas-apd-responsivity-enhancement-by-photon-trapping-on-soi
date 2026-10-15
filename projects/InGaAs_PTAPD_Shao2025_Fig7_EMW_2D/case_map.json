@@ -1,0 +1,32 @@
+{
+  "3": {
+    "geometry": "Control",
+    "wavelength_nm": 1550,
+    "projected_inplane_angle_deg": 10.0
+  },
+  "10": {
+    "geometry": "Control",
+    "wavelength_nm": 1550,
+    "projected_inplane_angle_deg": 0.0
+  },
+  "5": {
+    "geometry": "Slanted",
+    "wavelength_nm": 1550,
+    "projected_inplane_angle_deg": 10.0
+  },
+  "11": {
+    "geometry": "Slanted",
+    "wavelength_nm": 1550,
+    "projected_inplane_angle_deg": 0.0
+  },
+  "6": {
+    "geometry": "Slanted",
+    "wavelength_nm": 1626,
+    "projected_inplane_angle_deg": 10.0
+  },
+  "12": {
+    "geometry": "Slanted",
+    "wavelength_nm": 1626,
+    "projected_inplane_angle_deg": 0.0
+  }
+}

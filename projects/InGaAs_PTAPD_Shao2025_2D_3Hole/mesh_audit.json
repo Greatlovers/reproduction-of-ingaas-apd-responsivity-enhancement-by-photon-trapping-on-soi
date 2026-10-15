@@ -1,0 +1,1072 @@
+{
+  "run_id": "Shao2025_2D_3Hole_20261013_coarse2",
+  "passed": true,
+  "dimension": 2,
+  "holes": 3,
+  "vertices": 2607,
+  "triangles": 5046,
+  "bulk_regions": 24,
+  "vertex_reduction_percent": 88.37043315341036,
+  "all_coordinates_and_fields_finite": true,
+  "all_bulk_triangles_positive_area": true,
+  "region_coverage_area_um2": 7.1625000000000005,
+  "hole_dimensions_nm": {
+    "pitch": 625,
+    "depth": 220,
+    "bottom_width": 500,
+    "top_width": 340
+  },
+  "contacts": {
+    "anode": {
+      "connected_segments": 4,
+      "mesh_edges": 18,
+      "length_um": 0.375,
+      "y_um": 0,
+      "semiconductor_neighbor_check": true
+    },
+    "cathode": {
+      "connected_segments": 1,
+      "mesh_edges": 32,
+      "length_um": 1.875,
+      "y_um": 0.7,
+      "semiconductor_neighbor_check": true
+    }
+  },
+  "region_statistics": {
+    "R.HandleSi": {
+      "material": "Silicon",
+      "triangles": 46,
+      "vertices": 34,
+      "area_um2": 0.9375000000000002,
+      "bounds_um": [
+        [
+          -0.9375,
+          -3.02
+        ],
+        [
+          0.9375,
+          -2.52
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 34
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 34
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 34
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 34
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 34
+        }
+      }
+    },
+    "R.Absorber": {
+      "material": "InGaAs",
+      "triangles": 904,
+      "vertices": 543,
+      "area_um2": 0.33064103999999994,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.1
+        ],
+        [
+          0.9375,
+          0.35
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 543
+        },
+        "xMoleFraction": {
+          "min": 0.47,
+          "max": 0.47,
+          "count": 543
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 543
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 543
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 543
+        }
+      }
+    },
+    "R.Grading4": {
+      "material": "AlInGaAs",
+      "triangles": 128,
+      "vertices": 99,
+      "area_um2": 0.011718749999999962,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.375
+        ],
+        [
+          0.9375,
+          0.38125
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        },
+        "xMoleFraction": {
+          "min": 0.27,
+          "max": 0.27,
+          "count": 99
+        },
+        "yMoleFraction": {
+          "min": 0.524375,
+          "max": 0.524375,
+          "count": 99
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        }
+      }
+    },
+    "R.BOX": {
+      "material": "Oxide",
+      "triangles": 151,
+      "vertices": 94,
+      "area_um2": 3.75,
+      "bounds_um": [
+        [
+          -0.9375,
+          -2.52
+        ],
+        [
+          0.9375,
+          -0.52
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 94
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 94
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 94
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 94
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 94
+        }
+      }
+    },
+    "R.Grading5": {
+      "material": "AlInGaAs",
+      "triangles": 192,
+      "vertices": 132,
+      "area_um2": 0.011718750000000062,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.38125
+        ],
+        [
+          0.9375,
+          0.3875
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 132
+        },
+        "xMoleFraction": {
+          "min": 0.33,
+          "max": 0.33,
+          "count": 132
+        },
+        "yMoleFraction": {
+          "min": 0.523125,
+          "max": 0.523125,
+          "count": 132
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 132
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 132
+        }
+      }
+    },
+    "R.Grading6": {
+      "material": "AlInGaAs",
+      "triangles": 190,
+      "vertices": 130,
+      "area_um2": 0.011718749999999958,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.3875
+        ],
+        [
+          0.9375,
+          0.39375
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "xMoleFraction": {
+          "min": 0.39,
+          "max": 0.39,
+          "count": 130
+        },
+        "yMoleFraction": {
+          "min": 0.521875,
+          "max": 0.521875,
+          "count": 130
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        }
+      }
+    },
+    "R.Charge": {
+      "material": "InAlAs",
+      "triangles": 384,
+      "vertices": 231,
+      "area_um2": 0.09374999999999999,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.4
+        ],
+        [
+          0.9375,
+          0.45
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": -7.500000000000012e+17,
+          "max": -7.500000000000012e+17,
+          "count": 231
+        },
+        "xMoleFraction": {
+          "min": 0.48,
+          "max": 0.48,
+          "count": 231
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 231
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 231
+        },
+        "BoronActiveConcentration": {
+          "min": 7.499999999999997e+17,
+          "max": 7.499999999999997e+17,
+          "count": 231
+        }
+      }
+    },
+    "R.NContact": {
+      "material": "InGaAs",
+      "triangles": 190,
+      "vertices": 130,
+      "area_um2": 0.09374999999999986,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.65
+        ],
+        [
+          0.9375,
+          0.7
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 5.000000000000016e+18,
+          "max": 5.000000000000016e+18,
+          "count": 130
+        },
+        "xMoleFraction": {
+          "min": 0.47,
+          "max": 0.47,
+          "count": 130
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "ArsenicActiveConcentration": {
+          "min": 5.000000000000007e+18,
+          "max": 5.000000000000007e+18,
+          "count": 130
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        }
+      }
+    },
+    "R.SU8Bond": {
+      "material": "SU8",
+      "triangles": 434,
+      "vertices": 264,
+      "area_um2": 0.5625,
+      "bounds_um": [
+        [
+          -0.9375,
+          -0.3
+        ],
+        [
+          0.9375,
+          -0.0
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        }
+      }
+    },
+    "R.Grading7": {
+      "material": "AlInGaAs",
+      "triangles": 128,
+      "vertices": 99,
+      "area_um2": 0.01171875000000006,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.39375
+        ],
+        [
+          0.9375,
+          0.4
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        },
+        "xMoleFraction": {
+          "min": 0.45,
+          "max": 0.45,
+          "count": 99
+        },
+        "yMoleFraction": {
+          "min": 0.520625,
+          "max": 0.520625,
+          "count": 99
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        }
+      }
+    },
+    "R.PContact0": {
+      "material": "InGaAs",
+      "triangles": 36,
+      "vertices": 29,
+      "area_um2": 0.008068200000000001,
+      "bounds_um": [
+        [
+          -0.9375,
+          -0.0
+        ],
+        [
+          -0.838636,
+          0.1
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": -5.000000000000016e+18,
+          "max": -5.000000000000016e+18,
+          "count": 29
+        },
+        "xMoleFraction": {
+          "min": 0.47,
+          "max": 0.47,
+          "count": 29
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 29
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 29
+        },
+        "BoronActiveConcentration": {
+          "min": 5.000000000000007e+18,
+          "max": 5.000000000000007e+18,
+          "count": 29
+        }
+      }
+    },
+    "R.Grading0": {
+      "material": "AlInGaAs",
+      "triangles": 190,
+      "vertices": 130,
+      "area_um2": 0.011718750000000062,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.35
+        ],
+        [
+          0.9375,
+          0.35625
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "xMoleFraction": {
+          "min": 0.03,
+          "max": 0.03,
+          "count": 130
+        },
+        "yMoleFraction": {
+          "min": 0.529375,
+          "max": 0.529375,
+          "count": 130
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        }
+      }
+    },
+    "R.SU8Clad": {
+      "material": "SU8",
+      "triangles": 176,
+      "vertices": 116,
+      "area_um2": 0.18750000000000017,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.7
+        ],
+        [
+          0.9375,
+          0.8
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 116
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 116
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 116
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 116
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 116
+        }
+      }
+    },
+    "R.PTHole0": {
+      "material": "SU8",
+      "triangles": 226,
+      "vertices": 144,
+      "area_um2": 0.09239992,
+      "bounds_um": [
+        [
+          -0.875,
+          -0.0
+        ],
+        [
+          -0.375,
+          0.22
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 144
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 144
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 144
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 144
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 144
+        }
+      }
+    },
+    "R.PContact1": {
+      "material": "InGaAs",
+      "triangles": 74,
+      "vertices": 53,
+      "area_um2": 0.0161364,
+      "bounds_um": [
+        [
+          -0.411364,
+          -0.0
+        ],
+        [
+          -0.213636,
+          0.1
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": -5.000000000000016e+18,
+          "max": -5.000000000000016e+18,
+          "count": 53
+        },
+        "xMoleFraction": {
+          "min": 0.47,
+          "max": 0.47,
+          "count": 53
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 53
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 53
+        },
+        "BoronActiveConcentration": {
+          "min": 5.000000000000007e+18,
+          "max": 5.000000000000007e+18,
+          "count": 53
+        }
+      }
+    },
+    "R.Grading1": {
+      "material": "AlInGaAs",
+      "triangles": 128,
+      "vertices": 99,
+      "area_um2": 0.011718749999999958,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.35625
+        ],
+        [
+          0.9375,
+          0.3625
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        },
+        "xMoleFraction": {
+          "min": 0.09,
+          "max": 0.09,
+          "count": 99
+        },
+        "yMoleFraction": {
+          "min": 0.528125,
+          "max": 0.528125,
+          "count": 99
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 99
+        }
+      }
+    },
+    "R.PTHole1": {
+      "material": "SU8",
+      "triangles": 248,
+      "vertices": 159,
+      "area_um2": 0.09239992000000002,
+      "bounds_um": [
+        [
+          -0.25,
+          -0.0
+        ],
+        [
+          0.25,
+          0.22
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 159
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 159
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 159
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 159
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 159
+        }
+      }
+    },
+    "R.PContact2": {
+      "material": "InGaAs",
+      "triangles": 74,
+      "vertices": 53,
+      "area_um2": 0.0161364,
+      "bounds_um": [
+        [
+          0.213636,
+          -0.0
+        ],
+        [
+          0.411364,
+          0.1
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": -5.000000000000016e+18,
+          "max": -5.000000000000016e+18,
+          "count": 53
+        },
+        "xMoleFraction": {
+          "min": 0.47,
+          "max": 0.47,
+          "count": 53
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 53
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 53
+        },
+        "BoronActiveConcentration": {
+          "min": 5.000000000000007e+18,
+          "max": 5.000000000000007e+18,
+          "count": 53
+        }
+      }
+    },
+    "R.Grading2": {
+      "material": "AlInGaAs",
+      "triangles": 192,
+      "vertices": 132,
+      "area_um2": 0.011718750000000062,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.3625
+        ],
+        [
+          0.9375,
+          0.36875
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 132
+        },
+        "xMoleFraction": {
+          "min": 0.15,
+          "max": 0.15,
+          "count": 132
+        },
+        "yMoleFraction": {
+          "min": 0.526875,
+          "max": 0.526875,
+          "count": 132
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 132
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 132
+        }
+      }
+    },
+    "R.PTHole2": {
+      "material": "SU8",
+      "triangles": 224,
+      "vertices": 143,
+      "area_um2": 0.09239991999999998,
+      "bounds_um": [
+        [
+          0.375,
+          -0.0
+        ],
+        [
+          0.875,
+          0.22
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 143
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 143
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 143
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 143
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 143
+        }
+      }
+    },
+    "R.SOISi": {
+      "material": "Silicon",
+      "triangles": 57,
+      "vertices": 44,
+      "area_um2": 0.41250000000000003,
+      "bounds_um": [
+        [
+          -0.9375,
+          -0.52
+        ],
+        [
+          0.9375,
+          -0.3
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 44
+        },
+        "xMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 44
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 44
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 44
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 44
+        }
+      }
+    },
+    "R.PContact3": {
+      "material": "InGaAs",
+      "triangles": 36,
+      "vertices": 29,
+      "area_um2": 0.00806819999999999,
+      "bounds_um": [
+        [
+          0.838636,
+          -0.0
+        ],
+        [
+          0.9375,
+          0.1
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": -5.000000000000016e+18,
+          "max": -5.000000000000016e+18,
+          "count": 29
+        },
+        "xMoleFraction": {
+          "min": 0.47,
+          "max": 0.47,
+          "count": 29
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 29
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 29
+        },
+        "BoronActiveConcentration": {
+          "min": 5.000000000000007e+18,
+          "max": 5.000000000000007e+18,
+          "count": 29
+        }
+      }
+    },
+    "R.Grading3": {
+      "material": "AlInGaAs",
+      "triangles": 190,
+      "vertices": 130,
+      "area_um2": 0.011718749999999957,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.36875
+        ],
+        [
+          0.9375,
+          0.375
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "xMoleFraction": {
+          "min": 0.21,
+          "max": 0.21,
+          "count": 130
+        },
+        "yMoleFraction": {
+          "min": 0.525625,
+          "max": 0.525625,
+          "count": 130
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 130
+        }
+      }
+    },
+    "R.Multiplier": {
+      "material": "InAlAs",
+      "triangles": 448,
+      "vertices": 264,
+      "area_um2": 0.375,
+      "bounds_um": [
+        [
+          -0.9375,
+          0.45
+        ],
+        [
+          0.9375,
+          0.65
+        ]
+      ],
+      "fields": {
+        "DopingConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "xMoleFraction": {
+          "min": 0.48,
+          "max": 0.48,
+          "count": 264
+        },
+        "yMoleFraction": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "ArsenicActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        },
+        "BoronActiveConcentration": {
+          "min": 0.0,
+          "max": 0.0,
+          "count": 264
+        }
+      }
+    }
+  },
+  "native_tdr_sha256": "45cdad9b0b46e993b74ea08800677a212bdad9ba8cb207e9c004a00fdb296170",
+  "coordinate_note": "SDE X=paper x, SDE Y=paper z. DF-ISE conversion warns about its depth-axis convention; the unchanged XY coordinates were explicitly verified against native TDR bounds.",
+  "limitations": "Unknown epilayer and doping values are estimates/assumptions; SDE/mesh only. No electric, avalanche, responsivity or photon-trapping result."
+}

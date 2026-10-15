@@ -1,0 +1,456 @@
+{
+  "native_fields_verified": 51,
+  "native_data": [
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n8_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "1614573e4487c7869cb1192be7fae9dce516b5b1580e81ce33d8215fa82d60b8"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n21_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "b8c6e10aa665840a9eed320f9c6f1ebc769bbf33c89ef1405cce2a192bd9c8a8"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "b0787a5ccd03d027972f11a73256a996ca2a2f064181835ba3992aac3716dd37"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n14_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "b111b98e20fc78d100fd9ab85f09b6e6a5ab54827f21ea27252c84b2b815f5b5"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "eb125b569794688a34f9aef752197d7e01533d17887ab0f712694714e75e5cbb"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n27_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "6085d938acbe123aaca5f26d6b9a0e1ea847e3c518dd9290525262dfe0bd13e7"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "db19956f25aad02e69e7af7034657cd5c41521556d82157970e4922adccfbdbe"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "e29ce3bd873a969949ef3e96aac1a756b044294e17a0838d6bb947d4d0ad381e"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "6299ff9300967b39ba1c93a1778ec18537359312de46eda10d4e87b8fa6acac1"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "89a9ccfac565ed9af6744b7b6f710c25e0a867ba31d50e6dd7a61192ddf22769"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_power_dark_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "6df6f32b68a3f98fa7072ff8f9d9350be695105f75e2d59d37f00ed4a83bba9d"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_power1_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "f6e5cd44386195806e9846c99239d140497718eedcc2ccf6b0aa39305491d92c"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_power2_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "b02ba2e4a3fad9df7aaaf491fb58bf3f53a0c857760468d5088c764a012a1972"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_power_dark_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "d255f975b6e2babed1a02306abb73da228fb7dc8a05bf9070a398df6fc3a6149"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_power1_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "0d1495b2bbeaff8a9a0a435d8657a2ce008516bfb1c0f82c62042175839376d7"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_power2_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "29375c7a7ec0c3ea85bb7f3d8a742e999302f68a4abf3e995c0d890b5e0dc676"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_power0_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "0898c23626e547e811da9cf604458eb797be899bf330080c784ad8c53e6c1a8f"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_power0_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "293764e95cc76edccd8e2fc59d0de164918574bd58340a6d2a91d24c7713042c"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_power_dark_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "2754e5159ae85e7c46782d511cad5523d7e623efbe33a120b565b62f3ccd5df5"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_power0_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "d1231a1cb6fa9b9dcca3327124a70c5e429d8678d0297daa1662fee66f1bb960"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_power3_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "2bb0961d3464d6e563d95f48995945bc54ace05fd50514aeb6548ac525a1beb9"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_power0_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "b2f80bec8dc34e0c63186ebcadd8683231b9ec96b6edddbe19b716a0434d40cb"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_power2_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "d42a9eecab86c618f0e3f3eae8917543f016c528d270a562e3e945acdb3cec7d"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_power3_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "2e43549fa842f8946579025aef77caea6a36ed91ce3995d02b5278bd1435312e"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_power3_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "7665e46c88cfd36ce5bb2bbfd60cb4badd3a8f2ae6c52ced8940eb0ed649af17"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_power4_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "b0787a5ccd03d027972f11a73256a996ca2a2f064181835ba3992aac3716dd37"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_power_dark_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "70b177d62d72dd644784fab75d5561eb085c79d0a6831ee67173d30d4dd69443"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_power0_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "ae210e97693d3933bc2cabed0f65b3a4bedb72568077f97ce5fa68bbe34fd653"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_power1_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "6188f821fe9040b4442d43917ca081e1241fb3743a9e5cd3d00ca722aa12a3b6"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_power_dark_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "e45236e2d621fe83777178feae1d263029d641b6c4b2f8e0492c444bb8e1dc8b"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_power1_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "8d3417896abba818f661e782486136cd78cab08d19d518e2d7d8335f00767ad1"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_power2_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "c59c57610cf9f9d9d127d761afe9bd152aad58792d850ed70a0bc99d3f752a74"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n33_power3_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "e3e7cf9b7e8169cce40a81e71a8ae42b7e243885445f17873d501bc4ebd84742"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n47_power4_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "eb125b569794688a34f9aef752197d7e01533d17887ab0f712694714e75e5cbb"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_power1_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "e7c771ef3ed52c925756333b72f229993dd1578a9268a4ddd870316e24ed14f8"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_power4_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "db19956f25aad02e69e7af7034657cd5c41521556d82157970e4922adccfbdbe"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n39_power4_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "6299ff9300967b39ba1c93a1778ec18537359312de46eda10d4e87b8fa6acac1"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_power2_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "ffa11d2b410a5a6ffcf6b24a5fcfee93d24a2afecea8d9ae637002056a977563"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_power4_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "e29ce3bd873a969949ef3e96aac1a756b044294e17a0838d6bb947d4d0ad381e"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_power3_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "124d06ce4f35453d22e7d9c1b3fee109895f6b577f129ea42e029831c7f4fcd6"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_power_dark_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "2bbf7782b8e5a9854a4f205eb68ddfa4cd5a9342715e82198211563a82a798cc"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_power2_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "f9b0c3ca2cd054ee81815e94e1888dd5bb22e923807313de08101fa7ddc1ca94"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n44_power3_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "5742a43b3ed73ceb2554e803183801416f7dd7d5f0bb0b88c17887f2392a0691"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n50_power4_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "89a9ccfac565ed9af6744b7b6f710c25e0a867ba31d50e6dd7a61192ddf22769"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_power1_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "9da2a265df478bbdb062575cea8f1f30dcd4fd66288e395aef50b6e32ab0f07e"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production",
+      "file": "n53_power0_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "c5ec2d1121bb01f27805d6bdbdf210774a5ee2649470f0e18522e6c5452dd504"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback",
+      "file": "n8_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "20aeaa67e4aa2a1d709f5d79f7f491d9f8713d8f91c36ee690ed166aa1108db3"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback",
+      "file": "n15_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4365,
+      "sha256": "aa9ce297b37f553d24b8f341a788ec3308a3d012a59416c977c1eeb5f13091ee"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D",
+      "file": "n9_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 3360,
+      "sha256": "220aeff50bde112872c516fc4fa60166bc757829a1cf99e9cff2a4c282d7ce8f"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D",
+      "file": "n17_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4365,
+      "sha256": "0e9edb3e193e260c3b26a32160aa23bb35b2eb37f28efd24f45fc3e5304abcfd"
+    },
+    {
+      "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D",
+      "file": "n25_endpoint_des.tdr",
+      "authentic": true,
+      "dimension": 2,
+      "vertices": 4616,
+      "sha256": "d9b2447ed5ca6a0c6dcef9642051567b74866d922f577d2e589c825962a5a87b"
+    }
+  ],
+  "parents_unchanged": {
+    "InGaAs_PTAPD_Shao2025_2D_3Hole": "manifest and source hashes unchanged",
+    "InGaAs_PTAPD_Shao2025_Fig2_2D": "manifest and source hashes unchanged",
+    "InGaAs_PTAPD_Shao2025_Fig3_2D": "manifest and source hashes unchanged"
+  },
+  "mesh_source_links": {
+    "Control": {
+      "source": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n4_msh.tdr",
+      "sha256": "f4157716553baf22e903413a2c7a283d8d879ba81a6a950dd0cd3b902264fd80"
+    },
+    "Slanted": {
+      "source": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n20_msh.tdr",
+      "sha256": "ff09dba485141843f979055077aae9e36899c381ae34bf696b8e709a7ffccf56"
+    }
+  },
+  "common_parameter_sha256": "fa6e6ded1299325b816ea313b22ac86c694a70ce9170d26cc09b1888fd35d62f",
+  "subbandgap_generation_excluded": true,
+  "all_requested_Solve_endpoints_accepted": true,
+  "production_nodes": [
+    "8",
+    "14",
+    "33",
+    "47",
+    "21",
+    "27",
+    "39",
+    "50",
+    "44",
+    "53"
+  ],
+  "KCL_max_endpoint_relative_error": 0.0,
+  "surface_and_bulk_carrier_balance_max_checked_relative_error": 0.0031236325864691583,
+  "InGaAs_photon_transfer_discrepancy_max_relative": 0.09848260803430553,
+  "optical_energy_closure_max_absolute_error": 0.0019048556112458703,
+  "quantitative_paper_reproduction_achieved": false,
+  "remaining_differences": [
+    "PT does not show the measured approximately4V early punch-through; simulated major photo-current turn occurs around13V",
+    "Dark current at the paper 90%-breakdown biases exceeds experiment; trap-assisted/band-to-band/mesa-edge leakage not calibrated",
+    "Native tensor optical output to FEM transfer differs in InGaAs integrated generation relative to EMW sensors; no empirical correction applied",
+    "Unit-gain extraction bias is unspecified; AV-off20V and23.8V references retained separately",
+    "2D slots and physical area tiling cannot establish3D quantitative agreement"
+  ],
+  "audit_utc": "2026-10-15T04:51:04.138480+00:00"
+}

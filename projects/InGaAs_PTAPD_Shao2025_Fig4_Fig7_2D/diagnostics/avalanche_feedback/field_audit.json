@@ -1,0 +1,36 @@
+{
+  "8": {
+    "Geometry": "Control",
+    "Mode": "FieldAvalanche",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "0",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-8",
+    "actual_reverse_V": 23.8,
+    "max_multiplier_E_V_cm": 775514.96,
+    "KCL_endpoint_A_per_um": 0.0,
+    "endpoint_current_A_per_um": 4.5992791e-09,
+    "generation_avalanche_pairs_s": 28605573000.0,
+    "native_field_sha256": "20aeaa67e4aa2a1d709f5d79f7f491d9f8713d8f91c36ee690ed166aa1108db3",
+    "mesh_vertices": 3360,
+    "accepted": true
+  },
+  "15": {
+    "Geometry": "Cylinder",
+    "Mode": "FieldAvalanche",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "0",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-8",
+    "actual_reverse_V": 23.8,
+    "max_multiplier_E_V_cm": 704235.57,
+    "KCL_endpoint_A_per_um": 0.0,
+    "endpoint_current_A_per_um": 6.3914668e-10,
+    "generation_avalanche_pairs_s": 2895283100.0,
+    "native_field_sha256": "aa9ce297b37f553d24b8f341a788ec3308a3d012a59416c977c1eeb5f13091ee",
+    "mesh_vertices": 4365,
+    "accepted": true
+  }
+}

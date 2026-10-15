@@ -1,0 +1,37 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vX-2025.06, saved by gsub0
+
+# --- simulation flow
+sdevice sdevice "" {}
+sdevice Geometry "Control" {Control Cylinder} V
+sdevice Mode "FieldAvalanche" {FieldAvalanche} V
+sdevice Lambda_nm "1550" {1550} V
+sdevice PhotoPower_uW "0" {0} V
+sdevice Bias_V "23.8" {23.8} V
+sdevice Angle_deg "0" {0} V
+sdevice RefPower_W "1.874206334855649e-8" {1.874206334855649e-8} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default Geometry ""
+scenario default Mode ""
+scenario default Lambda_nm ""
+scenario default PhotoPower_uW ""
+scenario default Bias_V ""
+scenario default Angle_deg ""
+scenario default RefPower_W ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {Control} {default} 0
+2 3 2 {FieldAvalanche} {default} 0
+3 4 3 {1550} {default} 0
+4 5 4 {0} {default} 0
+5 6 5 {23.8} {default} 0
+6 7 6 {0} {default} 0
+7 8 7 {1.874206334855649e-8} {default} 0
+1 9 1 {Cylinder} {default} 0
+2 10 9 {FieldAvalanche} {default} 0
+3 11 10 {1550} {default} 0
+4 12 11 {0} {default} 0
+5 13 12 {23.8} {default} 0
+6 14 13 {0} {default} 0
+7 15 14 {1.874206334855649e-8} {default} 0

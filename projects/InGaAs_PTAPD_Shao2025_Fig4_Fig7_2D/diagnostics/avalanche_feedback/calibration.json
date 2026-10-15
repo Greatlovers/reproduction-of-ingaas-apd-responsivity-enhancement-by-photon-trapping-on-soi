@@ -1,0 +1,14 @@
+{
+  "type": "single-anchor common physical-parameter calibration",
+  "ionization_model": "vanOverstraeten local InAlAs, literature a,b baseline",
+  "b_scale_all_InAlAs_and_grading": 1.182,
+  "a_scale": 1,
+  "fit_target": "Control breakdown 24.0 V",
+  "raw_control_breakdown_probe_inner_V": 17.604212,
+  "raw_control_breakdown_probe_E_V_cm": 659318.87,
+  "raw_native_current_threshold_A_per_um": 3e-07,
+  "estimated_control_field_at24V_V_cm": 779250.7,
+  "rule": "Scale both electron/hole exponential field parameters by the same factor, estimated from field needed at 24 V divided by raw ionization threshold field. This calibrates the model, not output current. PT breakdown and all optical responsivities are unfit validation targets.",
+  "not_author_parameters": true,
+  "after_band_alignment": "Common b_scale=1.182 retained without extra fit; final breakdown must be validated in recomputed native IV."
+}

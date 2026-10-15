@@ -1,0 +1,2121 @@
+{
+  "policy": "No material parameter cards/tables, no paper assets, no full logs; originals remain untouched.",
+  "files": [
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/.history",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/.organization",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/.status",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/gexec.cmd",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/greadme",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/gsummary.txt",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/gtree.dat.backup",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_dvs.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_dvs.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_dvs.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_dvs.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_dvs.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/n19_msh.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/run_sde.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/submission_gsub.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_2D_3Hole/核验说明.txt",
+      "reason": "local delivery note; public report is separately adapted"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/.history",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/.organization",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/.status",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/cmlog.txt",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/collect_fields.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/collect_fixed.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/collect_pilot.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/collect_production.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/collect_spectrum.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/collect_temporal.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/emw.par",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/field_export.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/final_field_export.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/fixed_time_check_gsub.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/generate_optical_parameters.py",
+      "reason": "material-input generator; local material inputs not published"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/gexec.cmd",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/greadme",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/gsummary.txt",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/gtree.dat.backup",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/list_fields.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/meshpreview.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n10_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n11_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n12_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n13_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n14_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n15_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n16_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n17_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n18_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n19_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n20_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n21_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n22_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n23_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n24_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n25_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n26_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n27_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n28_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n29_dvs.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n29_dvs.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n29_dvs.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n29_dvs.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n29_dvs.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n29_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n2_dvs.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n2_dvs.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n2_dvs.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n2_dvs.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n2_dvs.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n2_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n31_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n31_msh.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n31_msh.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n31_msh.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n31_msh.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n31_msh.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n33_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n34_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n35_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n36_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n37_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n38_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n39_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n40_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n41_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n42_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n43_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n44_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n45_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n46_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n47_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n48_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n49_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n4_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n4_msh.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n4_msh.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n4_msh.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n4_msh.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n4_msh.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n50_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n51_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n52_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n53_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n54_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n55_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n56_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n56_msh.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n56_msh.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n56_msh.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n56_msh.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n56_msh.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n58_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n58_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n58_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n58_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n58_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n58_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n59_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n59_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n59_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n59_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n59_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n59_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n60_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n60_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n60_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n60_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n60_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n60_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n61_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n61_msh.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n61_msh.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n61_msh.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n61_msh.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n61_msh.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n63_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n63_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n63_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n63_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n63_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n63_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n64_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n64_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n64_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n64_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n64_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n64_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n65_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n65_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n65_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n65_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n65_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n65_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n6_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n7_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n8_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_eml.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_eml.job",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_eml.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_eml.sta",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/n9_local.err",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/optical_inputs.json",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/pilot_gsub.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/production_export.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/production_gsub.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/run_figure2.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/run_fixed_time_check.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/run_production.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/run_temporal_check.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/spectrum_export.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/spectrum_gsub.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/SVisualTcl.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/SVisualTcl.log.BAK",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/temporal_check_gsub.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig2_2D/复现说明.txt",
+      "reason": "local delivery note; public report is separately adapted"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/.organization",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/delivery_hashes.json",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/emw.par",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/figure3_common_scale.png",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/figure3_comparison.png",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/figure3_export.log",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/figure3_frame_metrics.csv",
+      "reason": "paper panel or digitized paper data"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/generate_optical_parameters.py",
+      "reason": "material-input generator; local material inputs not published"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/greadme",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n10_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n11_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n12_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n13_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n14_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n15_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n16_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n17_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n18_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n3_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n5_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/n6_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/optical_inputs.json",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/plot_figure3.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/reference/paper_colormap.npy",
+      "reason": "paper images, digitization or paper-derived color map"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/reference/paper_t248fs.png",
+      "reason": "paper images, digitization or paper-derived color map"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/reference/paper_t268fs.png",
+      "reason": "paper images, digitization or paper-derived color map"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/reference/paper_t298fs.png",
+      "reason": "paper images, digitization or paper-derived color map"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/reference/paper_t318fs.png",
+      "reason": "paper images, digitization or paper-derived color map"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/reference/reference_provenance.json",
+      "reason": "paper images, digitization or paper-derived color map"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/run_figure3.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig3_2D/复现说明.txt",
+      "reason": "local delivery note; public report is separately adapted"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/delivery_manifest.json",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback/download_manifest.json",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback/n15_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback/n8_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback/run_figure7.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback/sdevice.par",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/download_manifest.json",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/figure4_comparison.png",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/figure4_comparison.svg",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/figure7_comparison.png",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/figure7_comparison.svg",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/figure7_native_IV.png",
+      "reason": "original comparison image; public plots are regenerated from simulation CSV"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/greadme",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n12_dvs.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n17_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n20_dvs.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n25_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n4_dvs.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/n9_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/paper_fig4_control.png",
+      "reason": "paper panel or digitized paper data"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/paper_fig4_PT.png",
+      "reason": "paper panel or digitized paper data"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/paper_fig7.png",
+      "reason": "paper panel or digitized paper data"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/paper_fig7_IV_digitized.csv",
+      "reason": "paper panel or digitized paper data"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/plot_figure4.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/plot_figure7.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/run_figure47.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/sdevice.par",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/复现说明.md",
+      "reason": "local delivery note; public report is separately adapted"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/download_manifest.json",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/emw.par",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/n10_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/n11_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/n12_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/n3_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/n5_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/n6_eml.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/optical_inputs.json",
+      "reason": "material parameter card or optical n/k table"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_EMW_2D/run_optical.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/download_manifest.json",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/greadme",
+      "reason": "local metadata or original delivery manifest, superseded by public manifest"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n14_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n21_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n27_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n33_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n39_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n44_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n47_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n50_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n53_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/n8_des.out",
+      "reason": "full tool log, local execution status or obsolete backup"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/run_figure7.py",
+      "reason": "historical one-shot runner or paper-overlay plotter; use public tools instead"
+    },
+    {
+      "path": "InGaAs_PTAPD_Shao2025_Fig7_SDevice_2D/production/sdevice.par",
+      "reason": "material parameter card or optical n/k table"
+    }
+  ]
+}

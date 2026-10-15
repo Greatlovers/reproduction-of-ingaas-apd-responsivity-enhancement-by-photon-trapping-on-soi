@@ -1,0 +1,127 @@
+{
+  "authentic_tdr": true,
+  "dimension": 2,
+  "vertices": 2607,
+  "bulk_regions": [
+    [
+      "R.HandleSi",
+      "Silicon"
+    ],
+    [
+      "R.Absorber",
+      "InGaAs"
+    ],
+    [
+      "R.Grading4",
+      "AlInGaAs"
+    ],
+    [
+      "R.BOX",
+      "Oxide"
+    ],
+    [
+      "R.Grading5",
+      "AlInGaAs"
+    ],
+    [
+      "R.Grading6",
+      "AlInGaAs"
+    ],
+    [
+      "R.Charge",
+      "InAlAs"
+    ],
+    [
+      "R.NContact",
+      "InGaAs"
+    ],
+    [
+      "R.SU8Bond",
+      "SU8"
+    ],
+    [
+      "R.Grading7",
+      "AlInGaAs"
+    ],
+    [
+      "R.PContact0",
+      "InGaAs"
+    ],
+    [
+      "R.Grading0",
+      "AlInGaAs"
+    ],
+    [
+      "R.SU8Clad",
+      "SU8"
+    ],
+    [
+      "R.PTHole0",
+      "SU8"
+    ],
+    [
+      "R.PContact1",
+      "InGaAs"
+    ],
+    [
+      "R.Grading1",
+      "AlInGaAs"
+    ],
+    [
+      "R.PTHole1",
+      "SU8"
+    ],
+    [
+      "R.PContact2",
+      "InGaAs"
+    ],
+    [
+      "R.Grading2",
+      "AlInGaAs"
+    ],
+    [
+      "R.PTHole2",
+      "SU8"
+    ],
+    [
+      "R.SOISi",
+      "Silicon"
+    ],
+    [
+      "R.PContact3",
+      "InGaAs"
+    ],
+    [
+      "R.Grading3",
+      "AlInGaAs"
+    ],
+    [
+      "R.Multiplier",
+      "InAlAs"
+    ]
+  ],
+  "contacts": [
+    "cathode",
+    "anode"
+  ],
+  "materials": [
+    "AlInGaAs",
+    "InAlAs",
+    "InGaAs",
+    "Oxide",
+    "SU8",
+    "Silicon"
+  ],
+  "xy_bounds": [
+    [
+      -0.9375,
+      -3.02
+    ],
+    [
+      0.9375,
+      0.8
+    ]
+  ],
+  "tdr_sha256": "45cdad9b0b46e993b74ea08800677a212bdad9ba8cb207e9c004a00fdb296170",
+  "expanded_command_sha256": "09a36cee617b2a7040b40bbf4cf62e7859ac3561314dbaba678c57162b4afd3c"
+}

@@ -1,0 +1,52 @@
+{
+  "run_id": "Shao2025_Fig2_2D_20261014_fixedtime6a",
+  "passed": true,
+  "quantity_of_interest": "absorber-only responsivity and energy closure",
+  "tests": {
+    "17": {
+      "wavelength_nm": 1570.0,
+      "case": "PT",
+      "responsivity_A_per_W": 0.29482991398862757,
+      "energy_balance": 0.9998269662449641,
+      "relative_change_vs_longer_run": -7.627996026937645e-05,
+      "duration_ps": 1.5,
+      "longer_run": {
+        "case": "PT",
+        "wavelength_nm": 1570.0,
+        "detector_criterion_met": false,
+        "last_detector_deviation": 0.00011013,
+        "energy_balance": 1.0001090399397983,
+        "responsivity_A_per_W": 0.2948524053183906,
+        "baseline_energy_balance": 1.050742747983603,
+        "baseline_responsivity_A_per_W": 0.3128851580125533,
+        "relative_responsivity_change": -0.0576337746689769,
+        "steps": "100000",
+        "native_out_sha256": "c4370c7c4c68b7a09df47319442f1b64b3d906c6bd6936b41befa740b0444b5e",
+        "native_plt_sha256": "d4f8819ebceeb9e6c342134ce57cb5b1bdfd73d2c569a35249b44dc3708bac6f"
+      }
+    },
+    "51": {
+      "wavelength_nm": 1610.0,
+      "case": "Control",
+      "responsivity_A_per_W": 0.11244689660419281,
+      "energy_balance": 1.0000153540843784,
+      "relative_change_vs_longer_run": 2.4331573037272847e-05,
+      "duration_ps": 1.5,
+      "longer_run": {
+        "case": "Control",
+        "wavelength_nm": 1610.0,
+        "detector_criterion_met": true,
+        "last_detector_deviation": 4.996e-08,
+        "energy_balance": 1.0000074002900783,
+        "responsivity_A_per_W": 0.11244416066088508,
+        "baseline_energy_balance": 1.0104282698525069,
+        "baseline_responsivity_A_per_W": 0.11367100117968092,
+        "relative_responsivity_change": -0.010792906775374922,
+        "steps": "21700",
+        "native_out_sha256": "10cbee4a45d95b317e4b2785296083d71773543444bc2a364e2a2157cfae65b2",
+        "native_plt_sha256": "7dc6d9e08bc223c8a064fa314833040006cbf7a9865553a06385eb483581c0e7"
+      }
+    }
+  },
+  "criterion": "1.5 ps differs by <0.1% from the longer diagnostic and energy closure error <0.05%. No detector or energy renormalization used."
+}

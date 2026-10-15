@@ -1,0 +1,20 @@
+{
+  "8": {
+    "Geometry": "Control",
+    "Mode": "FieldAvalanche",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "0",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-8"
+  },
+  "15": {
+    "Geometry": "Cylinder",
+    "Mode": "FieldAvalanche",
+    "Lambda_nm": "1550",
+    "PhotoPower_uW": "0",
+    "Bias_V": "23.8",
+    "Angle_deg": "0",
+    "RefPower_W": "1.874206334855649e-8"
+  }
+}

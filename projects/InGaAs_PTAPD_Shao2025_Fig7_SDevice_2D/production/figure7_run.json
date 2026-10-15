@@ -1,0 +1,89 @@
+{
+  "run_id": "Shao2025_Fig7_DD_20261015_generationdomainfix4",
+  "status": "audited_2d_calibrated_baseline_unmatched_paper",
+  "nodes": [
+    8,
+    14,
+    33,
+    47,
+    21,
+    27,
+    39,
+    50,
+    44,
+    53
+  ],
+  "submitted_nodes": [
+    14,
+    33,
+    47,
+    27,
+    39,
+    50,
+    44,
+    53
+  ],
+  "phase": "calibrated_IV_and_unit_gain_power",
+  "source_sha256": {
+    "sdevice_des.cmd": "96becf1dfb2607fba32420ba08a74e474f0ad5d7093cc33626edc22e31c14f09",
+    "sdevice.par": "fa6e6ded1299325b816ea313b22ac86c694a70ce9170d26cc09b1888fd35d62f",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "optical_coupling.json": "800cda1161057eb233c5049aa9736d9f82aa4ad26f5862007066e3113b30c259",
+    "mesh_Control.tdr": "f4157716553baf22e903413a2c7a283d8d879ba81a6a950dd0cd3b902264fd80",
+    "mesh_Slanted.tdr": "ff09dba485141843f979055077aae9e36899c381ae34bf696b8e709a7ffccf56",
+    "calibration.json": "f8aac32ab8525efc27784314eead0889e683ee4efe1022e7ba236409ec807714",
+    "model_basis.json": "7e8e3353af88f0ec4e4c9b87b9630ee84eeaaa83beca092290b06ffaafd1b0bd",
+    "greadme": "77db34398f28745da73e474f47303e60d1673deb18c0d4573d15279701b032b5",
+    "run_figure7.py": "be42b07ff696e1a243149a83bab52bfc1de40da4519c65de667d8fa63f8b78f5",
+    "generation_Control_1550_angle10.tdr": "8519804b0f84cfb7ab3ea70486a4da96b8aeccd577c156dbde848953f5902abc",
+    "generation_Control_1550_angle0.tdr": "26a6629b93e279b5a300033385207a9d1ad35e34cd5fed73992366412b99dc16",
+    "generation_Slanted_1550_angle10.tdr": "e30fd00cb94cf4362f99b4fa7fef568b87e716e63d4fcc997cb6c8aa2d0e1e90",
+    "generation_Slanted_1550_angle0.tdr": "34f25156b1a462b78cc069a479540394aa7aa705358e3d8afed839e6eaa09d5d",
+    "generation_Slanted_1626_angle10.tdr": "b00c237e9508122c97752c8436f8009318ca81fbbffbe0d84be65d38cce25323",
+    "generation_Slanted_1626_angle0.tdr": "4e0162c0e5d30eda9b08562da48e000cc0abca3ec28ce73601b3a759bd568235"
+  },
+  "case_map_sha256": "9d4527e7b6d2a08b78c28b60a713e5dcf08894c49050ffeaeb0190de8c29f9d0",
+  "gtree_sha256": "fb1e956c3bd96738e031b5dd8087a26dbc7fb6f3253e4fbf796e9f9c36b2bfc6",
+  "parent_field_project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D",
+  "parent_field_manifest_sha256": "077c21e30dd355d76fb03e780a734f1cfb630ad574ff346785b361ca44f3f7cc",
+  "parent_optical_audit_sha256": "800cda1161057eb233c5049aa9736d9f82aa4ad26f5862007066e3113b30c259",
+  "submitted_epoch_s": 1792039288.5749562,
+  "previous_nodes": [
+    8,
+    14,
+    21,
+    27,
+    33,
+    39,
+    44
+  ],
+  "quantitative_paper_reproduction_achieved": false,
+  "final_audit_utc": "2026-10-15T04:51:04.138480+00:00",
+  "attempt_history": [
+    {
+      "run_id": "Shao2025_Fig7_DD_20261015_M1biascheck2",
+      "status": "audited_2d_calibrated_baseline_unmatched_paper",
+      "reason": "Superseded by correction of grade Eg/affinity alignment to actual native endpoint materials; geometry, mesh, lifetime, surface model and optical inputs unchanged."
+    },
+    {
+      "run_id": "Shao2025_Fig7_DD_20261015_bandalignfix3",
+      "reason": "Optical import domain corrected to exclude sub-bandgap generation; corrected-band dark curves are reused, all illuminated/power cases rerun."
+    }
+  ],
+  "reused_dark_nodes": [
+    8,
+    21
+  ],
+  "reused_dark_evidence": {
+    "8": {
+      "expanded_command_sha256": "f6eed74f21315f98c817d3fb9a2fc3e6c6ca01d46e1311408d6442ca590c0204",
+      "out_sha256": "f9b2e618d33013f3a40229b3bdf02bce4b3ad9d44863fba83ecf822c821f103e"
+    },
+    "21": {
+      "expanded_command_sha256": "1e9fcc455df4804ac48e8a1827662c73d4d2e8d306892e639537fc5ad13d44c5",
+      "out_sha256": "72cf98495c3ad73253cfb3bc8725926e5ead9dbfbb43dc3e464737f7f438a21e"
+    }
+  },
+  "parallel_experiments": 4,
+  "parent_field_manifest_at_creation_sha256": "e55ebef742709e5b6da9f859bfd213faa7fcd8ecce558a67d5d2005f2ee0eaaa"
+}

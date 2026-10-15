@@ -1,0 +1,368 @@
+{
+  "run_id": "Shao2025_Fig3_2D_20261014_endpointfix1",
+  "audited_utc": "2026-10-14T11:20:49.410456+00:00",
+  "all_completed": true,
+  "parent_figure2_unchanged": true,
+  "nodes": {
+    "3": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.01,
+      "role": "baseline",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 24.8,
+      "total_time_steps": 2480,
+      "duration_fs": 24.8,
+      "field_file": "n3_field_eml.tdr",
+      "actual_termination_time_fs": 24.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n3_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 10.86s\n  Total CPU time (total): 10.81s\n  Wall clock time (time stepping loop): 10.7s\n  Total CPU time (time stepping loop): 10.64s\nEMW simulation finished (Date: Wed Oct 14 19:10:23 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "bfedefd6778b3e0ce41192566fda0a730a4d3c7292b27619904df87234214478",
+      "plt_sha256": "cf685f5792e844aa16b6c533785736be16e92234aadc663f03c3b8d290ac872a",
+      "pp_command_sha256": "5273772846e3e6124f37963b3d378ce424c76c4d81a77c4fc89dbbdc76918e2a"
+    },
+    "10": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.01,
+      "role": "baseline",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 26.8,
+      "total_time_steps": 2680,
+      "duration_fs": 26.8,
+      "field_file": "n10_field_eml.tdr",
+      "actual_termination_time_fs": 26.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n10_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 11.43s\n  Total CPU time (total): 11.37s\n  Wall clock time (time stepping loop): 11.27s\n  Total CPU time (time stepping loop): 11.21s\nEMW simulation finished (Date: Wed Oct 14 19:10:23 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "7eb8c184deb6f174e50c3126e3dc4fd353054737fa85bb28ef541fd70a9b94d5",
+      "plt_sha256": "02c9ce6862abc21e3296be8b462db69c6107445044abaa632cf813c6a576493b",
+      "pp_command_sha256": "242f547f7307fa69efff0331f0a11324719089cbbacc46db7a400216e3c89a21"
+    },
+    "11": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.01,
+      "role": "baseline",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 29.8,
+      "total_time_steps": 2980,
+      "duration_fs": 29.8,
+      "field_file": "n11_field_eml.tdr",
+      "actual_termination_time_fs": 29.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n11_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 11.82s\n  Total CPU time (total): 11.78s\n  Wall clock time (time stepping loop): 11.66s\n  Total CPU time (time stepping loop): 11.6s\nEMW simulation finished (Date: Wed Oct 14 19:10:38 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "979aad0477227acd21089b556927b2d1363b8dd2869c910ad50c81295f960c84",
+      "plt_sha256": "c50b7b29b6b73bf40076cec5ac40f7d9d7f293428c3005d9234642453f5e7f35",
+      "pp_command_sha256": "ce65a7d29d9ca48f3f385a282eebf55fef47af6a821146ad098368abd175a23d"
+    },
+    "12": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.01,
+      "role": "baseline",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 31.8,
+      "total_time_steps": 3180,
+      "duration_fs": 31.8,
+      "field_file": "n12_field_eml.tdr",
+      "actual_termination_time_fs": 31.799999999999997,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n12_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 12.28s\n  Total CPU time (total): 12.22s\n  Wall clock time (time stepping loop): 12.13s\n  Total CPU time (time stepping loop): 12.07s\nEMW simulation finished (Date: Wed Oct 14 19:10:38 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "acf22c11c81e2212b44e0c65ac075d8fdf24804bfc2988c9dbd1fa2420c8c9bd",
+      "plt_sha256": "d6c113c6d925c20bc4a9a1e8ea402155007aee618459946deb7cb5018710ba4d",
+      "pp_command_sha256": "1661114cfbbb8cce1aebef8a69cede5f60ce12a32b585d887a39c099d39b2e97"
+    },
+    "6": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.005,
+      "role": "timestep_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 24.8,
+      "total_time_steps": 4960,
+      "duration_fs": 24.8,
+      "field_file": "n6_field_eml.tdr",
+      "actual_termination_time_fs": 24.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n6_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 20.55s\n  Total CPU time (total): 20.46s\n  Wall clock time (time stepping loop): 20.39s\n  Total CPU time (time stepping loop): 20.31s\nEMW simulation finished (Date: Wed Oct 14 19:11:01 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "d2b3a5a1bd42ec39ed9475928c308c5bbef8f612a4116d897917bc173715c979",
+      "plt_sha256": "226c68ac16cde8d6dd0651a762723ea42f3e4f21942958bda6b834bb2f087dea",
+      "pp_command_sha256": "daa4cfa83df8c5ddbe7480045f1de76e105965d79566c0776e2eea6daed48c01"
+    },
+    "16": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.005,
+      "role": "timestep_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 26.8,
+      "total_time_steps": 5360,
+      "duration_fs": 26.8,
+      "field_file": "n16_field_eml.tdr",
+      "actual_termination_time_fs": 26.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n16_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 21.78s\n  Total CPU time (total): 21.67s\n  Wall clock time (time stepping loop): 21.61s\n  Total CPU time (time stepping loop): 21.52s\nEMW simulation finished (Date: Wed Oct 14 19:11:02 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "233d5fdabbef75486a999318f68b69ca1d8b2c19a04eb8d5ce955c8322b1e5a7",
+      "plt_sha256": "d2705997021128efe8873790b59e129a805c0f3d99da27b32d2b767946d4cce1",
+      "pp_command_sha256": "111d114d5c2112dfda34464d5522db21706469221cbdf6e9205d3d16fa4e3934"
+    },
+    "17": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.005,
+      "role": "timestep_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 29.8,
+      "total_time_steps": 5960,
+      "duration_fs": 29.8,
+      "field_file": "n17_field_eml.tdr",
+      "actual_termination_time_fs": 29.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n17_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 23.54s\n  Total CPU time (total): 23.43s\n  Wall clock time (time stepping loop): 23.39s\n  Total CPU time (time stepping loop): 23.29s\nEMW simulation finished (Date: Wed Oct 14 19:11:27 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "d0ec9f576f929934192427aac2303a9753001350400a3172c5e5ee952ba7c6eb",
+      "plt_sha256": "b97ab05bca91916fb1b7aefb8e610f7edb16ff4463f1f3b65690ac3235c621b9",
+      "pp_command_sha256": "dc23f744e72ed86ecbf84cee703eb914403e462f5ac1c762406623acabe1d2ba"
+    },
+    "18": {
+      "mesh_nm": 25,
+      "time_step_fs": 0.005,
+      "role": "timestep_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 31.8,
+      "total_time_steps": 6360,
+      "duration_fs": 31.8,
+      "field_file": "n18_field_eml.tdr",
+      "actual_termination_time_fs": 31.799999999999997,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n18_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 24.39s\n  Total CPU time (total): 24.28s\n  Wall clock time (time stepping loop): 24.23s\n  Total CPU time (time stepping loop): 24.13s\nEMW simulation finished (Date: Wed Oct 14 19:11:29 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000003,
+          0.0
+        ],
+        [
+          0.9375000000000006,
+          0.5200000000000006,
+          0.0
+        ]
+      ],
+      "field_sha256": "80771dda053e5871d7596e32cab20d080a78ae05ebe568d24f104e5180706ec6",
+      "plt_sha256": "5fcd693db51c1dcea34a92c6cf52438b03aa4307a4756ce1fb1b5feb93071e65",
+      "pp_command_sha256": "e72c07206ec15c2e8a747a24dd5db99e4098fbc680f7f0a2a6786bdbcb09fb61"
+    },
+    "5": {
+      "mesh_nm": 20,
+      "time_step_fs": 0.01,
+      "role": "mesh_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 24.8,
+      "total_time_steps": 2480,
+      "duration_fs": 24.8,
+      "field_file": "n5_field_eml.tdr",
+      "actual_termination_time_fs": 24.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n5_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 14.3s\n  Total CPU time (total): 14.24s\n  Wall clock time (time stepping loop): 14.09s\n  Total CPU time (time stepping loop): 14.03s\nEMW simulation finished (Date: Wed Oct 14 19:11:44 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000002,
+          0.0
+        ],
+        [
+          0.9374999999999999,
+          0.5199999999999996,
+          0.0
+        ]
+      ],
+      "field_sha256": "98d81d0cbdaae31fea64282f4bc3562d0facbb32848d4aacedd4a62266ed04c3",
+      "plt_sha256": "151b83672ca8917dbf799c0ee476946f73bc11f088892492d4e589792d238bb7",
+      "pp_command_sha256": "570fda9121c8cb99663c63ed69682b484850f530932a415eef63f4706252a230"
+    },
+    "13": {
+      "mesh_nm": 20,
+      "time_step_fs": 0.01,
+      "role": "mesh_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 26.8,
+      "total_time_steps": 2680,
+      "duration_fs": 26.8,
+      "field_file": "n13_field_eml.tdr",
+      "actual_termination_time_fs": 26.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n13_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 15.09s\n  Total CPU time (total): 15.02s\n  Wall clock time (time stepping loop): 14.92s\n  Total CPU time (time stepping loop): 14.85s\nEMW simulation finished (Date: Wed Oct 14 19:11:48 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000002,
+          0.0
+        ],
+        [
+          0.9374999999999999,
+          0.5199999999999996,
+          0.0
+        ]
+      ],
+      "field_sha256": "6f6efb4fc06fd2a89722d60cecb79b0cf096474b486424ed3da7ec379cf98691",
+      "plt_sha256": "923e1ad1f5c6fac043125cd34d7108a9125e0c8966e466a929ed914e12e5bcbb",
+      "pp_command_sha256": "6d452ee979cb926f2127db18d6dc3875feb97d51b42ddcdf327dce14f12e9419"
+    },
+    "14": {
+      "mesh_nm": 20,
+      "time_step_fs": 0.01,
+      "role": "mesh_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 29.8,
+      "total_time_steps": 2980,
+      "duration_fs": 29.8,
+      "field_file": "n14_field_eml.tdr",
+      "actual_termination_time_fs": 29.8,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n14_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 16.17s\n  Total CPU time (total): 16.09s\n  Wall clock time (time stepping loop): 16.01s\n  Total CPU time (time stepping loop): 15.93s\nEMW simulation finished (Date: Wed Oct 14 19:12:03 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000002,
+          0.0
+        ],
+        [
+          0.9374999999999999,
+          0.5199999999999996,
+          0.0
+        ]
+      ],
+      "field_sha256": "c62fb8207c70cd4cd08de543452b1c56ff02c86f20b57686b215a0ce8bc60e63",
+      "plt_sha256": "b057faac0473895035a2521f379eedf6b59e4cbff4dc3d1f48e7f174780a6b51",
+      "pp_command_sha256": "cba8e64cbc561569a9be8c99c323140e0f93f97827d04b444cf71da54651dd34"
+    },
+    "15": {
+      "mesh_nm": 20,
+      "time_step_fs": 0.01,
+      "role": "mesh_check",
+      "wavelength_nm": 1615,
+      "snapshot_fs": 31.8,
+      "total_time_steps": 3180,
+      "duration_fs": 31.8,
+      "field_file": "n15_field_eml.tdr",
+      "actual_termination_time_fs": 31.799999999999997,
+      "time_evidence": "native EMW configured TimeStep and logged terminating step count; fixed final Plot, independently started at t=0",
+      "terminal_tail": "Writing ResultFile n15_eml.plt ... done.\n\n******************************************************************************\nEMW simulation times:\n  Wall clock time (total): 16.82s\n  Total CPU time (total): 16.73s\n  Wall clock time (time stepping loop): 16.65s\n  Total CPU time (time stepping loop): 16.57s\nEMW simulation finished (Date: Wed Oct 14 19:12:07 2026  (CST)).\n******************************************************************************",
+      "native_tdr_authentic": true,
+      "dimension": 2,
+      "native_bounds": [
+        [
+          -0.9374999999999999,
+          -0.7000000000000002,
+          0.0
+        ],
+        [
+          0.9374999999999999,
+          0.5199999999999996,
+          0.0
+        ]
+      ],
+      "field_sha256": "c1371b1dab2d0b945fb592d6597a5b9bb5a76c2584523fafdc95e6e7c6ba7ad8",
+      "plt_sha256": "b55b0e6fdd9a461be00aa5101cd955ebde435281fe3444756ce616b05cabe08f",
+      "pp_command_sha256": "da1c89e3478895e2a83e9abab91e6fe5ab2e7408de3e75e01b1d2bcb080af1c7"
+    }
+  }
+}

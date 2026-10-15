@@ -1,0 +1,7 @@
+Materials {
+  SU8 {
+    label = "SU-8"
+    group = Insulator
+    color = #b8b8b8, #b8b8b8
+  }
+}

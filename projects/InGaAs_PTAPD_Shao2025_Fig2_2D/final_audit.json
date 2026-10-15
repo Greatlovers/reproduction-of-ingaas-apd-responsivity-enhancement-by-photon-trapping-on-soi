@@ -1,0 +1,63 @@
+{
+  "run_id": "Shao2025_Fig2_2D_20261014_production7",
+  "status": "audited_2d_baseline_unmatched_paper",
+  "dimension": 2,
+  "holes": 3,
+  "spectrum_power_audit_passed": true,
+  "spatial_field_audit": {
+    "6": {
+      "native_field_sha256": "6074759067e978f6d9d4b545d5fd60d11458b96f1378005aa8ddb6ab4d4dc892",
+      "samples": 8607,
+      "sample_grid_nm": 12.5,
+      "native_max_I2_III_V": 7256.5388407,
+      "finite_nonnegative_sampled_I2": true,
+      "sample_csv_sha256": "c2791eeb6565da4bbe1ca7732b62beadf6e02d499ce252abc89709c6af9512f9",
+      "plot_normalization": "I2 divided by native maximum in III-V 0<=z<=700 nm; plot central -312.5<=x<=312.5 nm",
+      "integration_note": "SVisual integrate_field reports a non-GC geometry limitation; those optional integral values were not used in validation or responsivity."
+    },
+    "52": {
+      "native_field_sha256": "9c985c56fde49c62b671d4115ba9b38c2dc6ba61a9a9e9a1b077315b154fff85",
+      "samples": 8607,
+      "sample_grid_nm": 12.5,
+      "native_max_I2_III_V": 209.570021431,
+      "finite_nonnegative_sampled_I2": true,
+      "sample_csv_sha256": "f1e634a2b2a7ee468f220ad799bcc7138c0aa84847cd140ae44cf1296792bd1f",
+      "plot_normalization": "I2 divided by native maximum in III-V 0<=z<=700 nm; plot central -312.5<=x<=312.5 nm",
+      "integration_note": "SVisual integrate_field reports a non-GC geometry limitation; those optional integral values were not used in validation or responsivity."
+    }
+  },
+  "comparison": {
+    "paper_nominal_PT_peak_A_per_W": 0.87,
+    "paper_nominal_PT_peak_nm": 1615,
+    "baseline_PT_peak_A_per_W": 0.7381153893795026,
+    "baseline_PT_peak_nm": 1620,
+    "peak_relative_difference": -0.1515915064603418,
+    "PT_1615_A_per_W": 0.7233422520272241,
+    "Control_1615_A_per_W": 0.10212149377661175,
+    "paper_Control_1615_graphical_A_per_W": 0.2966870209887602,
+    "Control_1615_relative_difference": -0.6557938617055966,
+    "PT_to_Control_enhancement_1615": 7.0831538521118524,
+    "qualitative_field": "absorber and multiplication-layer hotspots appear; their relative intensities differ from the paper",
+    "quantitative_paper_reproduction_achieved": false
+  },
+  "maximum_energy_balance_error": 0.0009848677511559156,
+  "mesh_check_max_relative_difference": 0.0269889358952472,
+  "mesh_check_scope": "6 selected points only, 25 to 20 nm; entire spectrum is consistently the 25 nm model. This is not a proof of full mesh convergence.",
+  "source_sha256": {
+    "sde_dvs.cmd": "06fe71f522ff10d3085146cf3b2ba7047931862ceb49f9c1ec5dd2ea44654181",
+    "snmesh_msh.cmd": "333800e1d8b7147ba0d8b6a2316df222884dc73165b85a29c4922ba194519560",
+    "emw_eml.cmd": "730577fca906588a73172e77230bb7a880795e6177e375e9cda9f71b60d386b2",
+    "emw.par": "1e7278e756674f8bf59187848e2789c3b478a64f0549cbc5fc299e0d83d15d95",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "model_basis.json": "9289d99383ab97b95726afbc3424018bcb4d276d2350841066529b69828d4660",
+    "optical_inputs.json": "7748938fb0254e63eba9d42c3016f5ed71a9d80b118565157feb4c1bf82ae2d0",
+    "greadme": "7a0887bb90231948fdc2d5e8648e063df6b6619607afc34af61bee9dcd271ff8",
+    "run_figure2.py": "b82edc8b3d4daa7d1e650ff3093f0f915f0db2f205b11e645613a6b735c4e5fe",
+    "run_temporal_check.py": "284ffbc23b7b01a7e149c446bf071cae34d9381f36de754ab2892fd6735969a0",
+    "run_fixed_time_check.py": "f9e4b0bbbc8fd4ca4be2fdb501a20a9907d6a8515f23be3b20f98deaa1c09e32",
+    "run_production.py": "176ed2d3b36c85227df80ec8f6dc928e166d3b71d5575f7a59ce611a57f26778"
+  },
+  "limitations": "2D translational slots versus original 3D periodic PC; optical inputs and missing layer/boundary/fill assumptions are uncalibrated. No avalanche/electrical result or empirical responsivity scale factor.",
+  "audited_utc": "2026-10-14T04:14:47.337540+00:00",
+  "comparison_image_sha256": "1a4520e3313e2b69e90aa49be6101689a0f92476a8413c019832441b20a9d0fd"
+}

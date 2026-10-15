@@ -1,0 +1,269 @@
+{
+  "run_id": "Shao2025_Fig3_2D_20261014_endpointfix1",
+  "status": "audited_2d_transient_baseline",
+  "times_fs": [
+    24.8,
+    26.8,
+    29.8,
+    31.8
+  ],
+  "source_height_above_III_V_nm": 550,
+  "wavelength_nm": 1615,
+  "baseline_mesh_nm": 25,
+  "baseline_time_step_fs": 0.01,
+  "native_endpoints_passed": true,
+  "native_TDR_and_PLT_hashes_verified": true,
+  "finite_field_samples_passed": true,
+  "parent_figure2_unchanged": true,
+  "sample_grid": {
+    "nx": 126,
+    "nz": 123,
+    "x_nm": [
+      -312.5,
+      312.5
+    ],
+    "z_nm": [
+      -520,
+      700
+    ],
+    "dx_nm": 5,
+    "dz_nm": 10
+  },
+  "field_definition": "I2=sum over X/Y/Z of RealElectricField^2+ImagElectricField^2, native EMW sine/cosine quadrature fields; raw native field units squared; displayed normalized intensity is dimensionless",
+  "normalizations": {
+    "comparison": "independent native maximum over central one-period window per frame",
+    "growth_plot": "one shared maximum over the same window across all four baseline frames",
+    "common_max_I2": 343.174817499
+  },
+  "field_checks": {
+    "3": {
+      "requested_time_fs": 24.8,
+      "native_solver_duration_fs": 24.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 24.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 121.321771489,
+      "max_inplane_I2_ratio": 1.1302972644809531e-15,
+      "last_source_monitor_time_fs": 24.755,
+      "monitor_rows": 100,
+      "sample_sha256": "2fb49fde1a79a3c6f3c3441f126afa8683a496ab0caee316191f93c6e8d036c0"
+    },
+    "10": {
+      "requested_time_fs": 26.8,
+      "native_solver_duration_fs": 26.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 26.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 175.316169214,
+      "max_inplane_I2_ratio": 1.0526581571362716e-15,
+      "last_source_monitor_time_fs": 26.754998999999998,
+      "monitor_rows": 108,
+      "sample_sha256": "8721d314a0d2ff057e1463f8d9f2408ded3f4654dc84e3b9e8d2d5f2a54471df"
+    },
+    "11": {
+      "requested_time_fs": 29.8,
+      "native_solver_duration_fs": 29.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 29.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 271.497798808,
+      "max_inplane_I2_ratio": 1.0367064136753742e-15,
+      "last_source_monitor_time_fs": 29.755,
+      "monitor_rows": 120,
+      "sample_sha256": "04ad9339d7defb833d554b29144ceae73b333fe18625867e72e02c0959f87d4a"
+    },
+    "12": {
+      "requested_time_fs": 31.8,
+      "native_solver_duration_fs": 31.799999999999997,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 31.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 343.174817499,
+      "max_inplane_I2_ratio": 1.097737797934715e-15,
+      "last_source_monitor_time_fs": 31.755000999999996,
+      "monitor_rows": 128,
+      "sample_sha256": "b66239f8a3588adee1654054ca94f5b9636d3030daf7059c888fb1d05281c946"
+    },
+    "6": {
+      "requested_time_fs": 24.8,
+      "native_solver_duration_fs": 24.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 24.7975,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 121.320525628,
+      "max_inplane_I2_ratio": 1.1288124712789181e-15,
+      "last_source_monitor_time_fs": 24.752499999999998,
+      "monitor_rows": 199,
+      "sample_sha256": "df4fd950c0fb13e18f9e79763f605b46640032f05782b222eb08ad87b9b051e2"
+    },
+    "16": {
+      "requested_time_fs": 26.8,
+      "native_solver_duration_fs": 26.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 26.7975,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 175.314959329,
+      "max_inplane_I2_ratio": 1.058812256110163e-15,
+      "last_source_monitor_time_fs": 26.752499,
+      "monitor_rows": 215,
+      "sample_sha256": "fd942739e038e3f6e62fea26b0e1451f36da200453fc33e625940da66d673d51"
+    },
+    "17": {
+      "requested_time_fs": 29.8,
+      "native_solver_duration_fs": 29.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 29.7975,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 271.497421348,
+      "max_inplane_I2_ratio": 1.0338696117124936e-15,
+      "last_source_monitor_time_fs": 29.752499999999994,
+      "monitor_rows": 239,
+      "sample_sha256": "1cbff6f7f5d781e5b323fec07258f1a99e92f47d8f33e4e5afec149a672670e2"
+    },
+    "18": {
+      "requested_time_fs": 31.8,
+      "native_solver_duration_fs": 31.799999999999997,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 31.7975,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 343.175208766,
+      "max_inplane_I2_ratio": 1.1004543731756167e-15,
+      "last_source_monitor_time_fs": 31.752499999999998,
+      "monitor_rows": 255,
+      "sample_sha256": "4af8a4f1557738c48b6dbd631e006da6d619f6ea8e901b783fe55b06c1c20814"
+    },
+    "5": {
+      "requested_time_fs": 24.8,
+      "native_solver_duration_fs": 24.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 24.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 122.247676904,
+      "max_inplane_I2_ratio": 1.0699868861370572e-15,
+      "last_source_monitor_time_fs": 24.755,
+      "monitor_rows": 100,
+      "sample_sha256": "5751ab449e9f6cb6b082332a2a28e1f881e893648154d9677353a92d3e6bc0c6"
+    },
+    "13": {
+      "requested_time_fs": 26.8,
+      "native_solver_duration_fs": 26.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 26.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 176.712773862,
+      "max_inplane_I2_ratio": 1.1611005888868673e-15,
+      "last_source_monitor_time_fs": 26.754998999999998,
+      "monitor_rows": 108,
+      "sample_sha256": "9f2c2f0e433a25a51000a8c8cccdc6e15d8748bc0bd1e64f8f7d305d9d966462"
+    },
+    "14": {
+      "requested_time_fs": 29.8,
+      "native_solver_duration_fs": 29.8,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 29.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 273.666361515,
+      "max_inplane_I2_ratio": 1.1583813948855539e-15,
+      "last_source_monitor_time_fs": 29.755,
+      "monitor_rows": 120,
+      "sample_sha256": "d8dc58181fb7397edfddab437d91ecdd4effe87ee32408767a338178cc7d7da4"
+    },
+    "15": {
+      "requested_time_fs": 31.8,
+      "native_solver_duration_fs": 31.799999999999997,
+      "Yee_E_field_time_fs_inferred_from_native_monitor_time_tick_relation": 31.795,
+      "time_staggering_note": "native monitor Time=(TickStep+0.5)*dt; final E field is at duration-dt/2; the maximum 0.005 fs difference is retained, not shifted",
+      "samples": 15498,
+      "finite_all_sampled_columns": true,
+      "nonnegative_I2": true,
+      "max_I2_central_frame_native_E_units_squared": 345.953330924,
+      "max_inplane_I2_ratio": 1.250820846419491e-15,
+      "last_source_monitor_time_fs": 31.755000999999996,
+      "monitor_rows": 128,
+      "sample_sha256": "00000943bec9d09dc7afb131783054afdf0fbf42a9846bb18af288d039ff35e1"
+    }
+  },
+  "numerical_checks": {
+    "mesh_check": [
+      {
+        "time_fs": 24.8,
+        "raw_I2_relative_L2": 0.009589317741296621,
+        "normalized_shape_relative_L2": 0.015131873286333562,
+        "peak_relative_change": 0.007631815820328347
+      },
+      {
+        "time_fs": 26.8,
+        "raw_I2_relative_L2": 0.009796285899184356,
+        "normalized_shape_relative_L2": 0.015068881615623657,
+        "peak_relative_change": 0.007966205594506448
+      },
+      {
+        "time_fs": 29.8,
+        "raw_I2_relative_L2": 0.010102481194583712,
+        "normalized_shape_relative_L2": 0.01469329422398848,
+        "peak_relative_change": 0.007987404378676288
+      },
+      {
+        "time_fs": 31.8,
+        "raw_I2_relative_L2": 0.010291505378138032,
+        "normalized_shape_relative_L2": 0.014597653943986343,
+        "peak_relative_change": 0.008096495673107107
+      }
+    ],
+    "timestep_check": [
+      {
+        "time_fs": 24.8,
+        "raw_I2_relative_L2": 1.6447345320302674e-05,
+        "normalized_shape_relative_L2": 1.384368860190669e-05,
+        "peak_relative_change": -1.0269063703161052e-05
+      },
+      {
+        "time_fs": 26.8,
+        "raw_I2_relative_L2": 1.631737548772263e-05,
+        "normalized_shape_relative_L2": 1.4599205398526155e-05,
+        "peak_relative_change": -6.901160374606086e-06
+      },
+      {
+        "time_fs": 29.8,
+        "raw_I2_relative_L2": 1.6467777776761544e-05,
+        "normalized_shape_relative_L2": 1.6134853487328566e-05,
+        "peak_relative_change": -1.390287515001809e-06
+      },
+      {
+        "time_fs": 31.8,
+        "raw_I2_relative_L2": 1.6654726192782875e-05,
+        "normalized_shape_relative_L2": 1.6866013115063706e-05,
+        "peak_relative_change": 1.1401390196397188e-06
+      }
+    ]
+  },
+  "max_raw_I2_relative_L2_mesh_check": 0.010291505378138032,
+  "max_raw_I2_relative_L2_timestep_check": 1.6654726192782875e-05,
+  "quantitative_paper_reproduction_achieved": false,
+  "limitations": "2D translational slots versus the paper 3D photonic crystal; Figure 3 wavelength assumed as 1615 nm from Figure 2; paper source rise/phase not specified, NRise=8 retained without tuning; layer, fill and optical-index assumptions inherited. No amplitude fitting or time translation. The two mesh levels are a sensitivity check, not full spatial-convergence proof.",
+  "audited_utc": "2026-10-14T11:25:54.349784+00:00",
+  "maximum_Yee_time_offset_fs": 0.005,
+  "plotting_time_note": "labels use the paper requested times to 0.1 fs; native Yee E field is earlier by dt/2 (0.005 fs baseline, 0.0025 fs time-step check), without time shift"
+}

@@ -1,0 +1,122 @@
+{
+  "3": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.01,
+    "role": "baseline",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 24.8,
+    "total_time_steps": 2480,
+    "duration_fs": 24.8,
+    "field_file": "n3_field_eml.tdr"
+  },
+  "10": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.01,
+    "role": "baseline",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 26.8,
+    "total_time_steps": 2680,
+    "duration_fs": 26.8,
+    "field_file": "n10_field_eml.tdr"
+  },
+  "11": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.01,
+    "role": "baseline",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 29.8,
+    "total_time_steps": 2980,
+    "duration_fs": 29.8,
+    "field_file": "n11_field_eml.tdr"
+  },
+  "12": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.01,
+    "role": "baseline",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 31.8,
+    "total_time_steps": 3180,
+    "duration_fs": 31.8,
+    "field_file": "n12_field_eml.tdr"
+  },
+  "6": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.005,
+    "role": "timestep_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 24.8,
+    "total_time_steps": 4960,
+    "duration_fs": 24.8,
+    "field_file": "n6_field_eml.tdr"
+  },
+  "16": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.005,
+    "role": "timestep_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 26.8,
+    "total_time_steps": 5360,
+    "duration_fs": 26.8,
+    "field_file": "n16_field_eml.tdr"
+  },
+  "17": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.005,
+    "role": "timestep_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 29.8,
+    "total_time_steps": 5960,
+    "duration_fs": 29.8,
+    "field_file": "n17_field_eml.tdr"
+  },
+  "18": {
+    "mesh_nm": 25,
+    "time_step_fs": 0.005,
+    "role": "timestep_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 31.8,
+    "total_time_steps": 6360,
+    "duration_fs": 31.8,
+    "field_file": "n18_field_eml.tdr"
+  },
+  "5": {
+    "mesh_nm": 20,
+    "time_step_fs": 0.01,
+    "role": "mesh_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 24.8,
+    "total_time_steps": 2480,
+    "duration_fs": 24.8,
+    "field_file": "n5_field_eml.tdr"
+  },
+  "13": {
+    "mesh_nm": 20,
+    "time_step_fs": 0.01,
+    "role": "mesh_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 26.8,
+    "total_time_steps": 2680,
+    "duration_fs": 26.8,
+    "field_file": "n13_field_eml.tdr"
+  },
+  "14": {
+    "mesh_nm": 20,
+    "time_step_fs": 0.01,
+    "role": "mesh_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 29.8,
+    "total_time_steps": 2980,
+    "duration_fs": 29.8,
+    "field_file": "n14_field_eml.tdr"
+  },
+  "15": {
+    "mesh_nm": 20,
+    "time_step_fs": 0.01,
+    "role": "mesh_check",
+    "wavelength_nm": 1615,
+    "snapshot_fs": 31.8,
+    "total_time_steps": 3180,
+    "duration_fs": 31.8,
+    "field_file": "n15_field_eml.tdr"
+  }
+}

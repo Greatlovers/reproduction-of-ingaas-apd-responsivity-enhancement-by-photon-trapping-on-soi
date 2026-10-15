@@ -1,0 +1,134 @@
+{
+  "run_id": "Shao2025_Fig3_2D_20261014_endpointfix1",
+  "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig3_2D",
+  "status": "audited_2d_transient_baseline",
+  "dimension": 2,
+  "holes": 3,
+  "nodes": [
+    3,
+    10,
+    11,
+    12,
+    6,
+    16,
+    17,
+    18,
+    5,
+    13,
+    14,
+    15
+  ],
+  "created_utc": "2026-10-14T10:56:24.512895+00:00",
+  "source_sha256": {
+    "emw_eml.cmd": "bebae06c6673791dc93e6e530f05c8be509b65c6a6d8ec4ac352e53f1763abfc",
+    "run_figure3.py": "6ad1922f5992e993a9a330364872164775000d9b7498fff2b3e015d7e6906244",
+    "emw.par": "1e7278e756674f8bf59187848e2789c3b478a64f0549cbc5fc299e0d83d15d95",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "optical_inputs.json": "7748938fb0254e63eba9d42c3016f5ed71a9d80b118565157feb4c1bf82ae2d0",
+    "model_basis.json": "a95498aedb1c601043cfa216d3666c96ae4e7a4a018d9901754b7fb4ba27b734",
+    "greadme": "d58cb143cdd44ffdc65924cfdbefee28fe8820ff7fcaacb1bf95013e3d20b611",
+    "generate_optical_parameters.py": "b988e4682a5066ba670e6b320668d1f58e050aab190ea2877a12dce03ebb60d1",
+    "mesh_25nm.tdr": "2ae5eafc92a044ae28d3a3036ff27a76050a659ba77b80f1e25d50bf9712a779",
+    "mesh_20nm.tdr": "d4351f7f81a986a52882fa74ff8f3a8e845aad87f10db03c8b02a6266adc372a",
+    "source_geometry/sde_dvs.cmd": "06fe71f522ff10d3085146cf3b2ba7047931862ceb49f9c1ec5dd2ea44654181",
+    "source_geometry/snmesh_msh.cmd": "333800e1d8b7147ba0d8b6a2316df222884dc73165b85a29c4922ba194519560",
+    "source_geometry/model_basis.json": "9289d99383ab97b95726afbc3424018bcb4d276d2350841066529b69828d4660",
+    "collect_figure3.tcl": "3aa20c697a7f883e701a0e253a3f21d04b9df1188b4fc7e4658df7d6d98d2c11",
+    "plot_figure3.py": "93387204dd905c7da525a92224e6ce12688004f4d4ac5a869e7deaaab443d814"
+  },
+  "parent_source_sha256": {
+    "sde_dvs.cmd": "06fe71f522ff10d3085146cf3b2ba7047931862ceb49f9c1ec5dd2ea44654181",
+    "snmesh_msh.cmd": "333800e1d8b7147ba0d8b6a2316df222884dc73165b85a29c4922ba194519560",
+    "emw_eml.cmd": "730577fca906588a73172e77230bb7a880795e6177e375e9cda9f71b60d386b2",
+    "emw.par": "1e7278e756674f8bf59187848e2789c3b478a64f0549cbc5fc299e0d83d15d95",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "model_basis.json": "9289d99383ab97b95726afbc3424018bcb4d276d2350841066529b69828d4660",
+    "optical_inputs.json": "7748938fb0254e63eba9d42c3016f5ed71a9d80b118565157feb4c1bf82ae2d0",
+    "greadme": "7a0887bb90231948fdc2d5e8648e063df6b6619607afc34af61bee9dcd271ff8",
+    "run_figure2.py": "b82edc8b3d4daa7d1e650ff3093f0f915f0db2f205b11e645613a6b735c4e5fe",
+    "run_temporal_check.py": "284ffbc23b7b01a7e149c446bf071cae34d9381f36de754ab2892fd6735969a0",
+    "run_fixed_time_check.py": "f9e4b0bbbc8fd4ca4be2fdb501a20a9907d6a8515f23be3b20f98deaa1c09e32",
+    "run_production.py": "176ed2d3b36c85227df80ec8f6dc928e166d3b71d5575f7a59ce611a57f26778"
+  },
+  "parent_figure2_manifest_sha256": "bc663d8de453908fb56bbcdf6c8c940d1efeb3e4acd9c0aeca816b421679ce90",
+  "gtree_sha256": "db764beeb52267b122d86d2e215fa188f1d2ef186d2908845db47188e60e3f83",
+  "case_map_sha256": "9e64e83ee2e0e715227cf183e12492797afacb01704655c10a01d398590c35f2",
+  "submitted_utc": "2026-10-14T11:10:07.106854+00:00",
+  "submitted_epoch_s": 1791976207.106863,
+  "workbench_returned_utc": "2026-10-14T11:12:10.640601+00:00",
+  "attempt_history": [
+    {
+      "run_id": "Shao2025_Fig3_2D_20261014_native1",
+      "submitted_utc": "2026-10-14T10:56:25.347794+00:00",
+      "reason": "Deck.run returned with no EMW command, output, or field; investigating Workbench preprocessing, no optical solution executed."
+    },
+    {
+      "run_id": "Shao2025_Fig3_2D_20261014_native1",
+      "reason": "gsub reported not a writable SWB project: .project marker missing because directory existed before Deck initialization. Added marker from an official API-created empty project; no EMW solve had run."
+    },
+    {
+      "run_id": "Shao2025_Fig3_2D_20261014_initfix1",
+      "reason": "All three EMW solves terminated normally, but exact one-tick Plot windows omitted most snapshots. Replaced schedule by four independent exact endpoint runs; reduced only monitor output frequency. Physical model and meshes unchanged.",
+      "old_nodes": [
+        3,
+        6,
+        5
+      ],
+      "native_field_files": [
+        "n3_t248fs_000_eml.tdr",
+        "n5_t248fs_000_eml.tdr"
+      ]
+    }
+  ],
+  "gsub_returncode": 1,
+  "initialization_fix": "Official Deck-created traditional project marker; source and meshes unchanged.",
+  "excluded_nodes": [
+    3,
+    6,
+    5
+  ],
+  "reused_node_output_archive": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig3_2D/backups/snapshot_output_fix1/reused_node_artifacts",
+  "output_preflight_note": "Workbench reused nodes 3/5/6 for the default 24.8-fs endpoint; old artifacts archived before submission.",
+  "native_exported_utc": "2026-10-14T11:22:29.256579+00:00",
+  "postprocess_recovery": {
+    "reason": "First dense 4-component probe batch exceeded 240 s; existing five complete exports retained. Remaining files export I2 on the same sample grid without repeated component probes.",
+    "reused_nodes": [
+      3,
+      10,
+      11,
+      12,
+      6
+    ],
+    "newly_exported_nodes": [
+      16,
+      17,
+      18,
+      5,
+      13,
+      14,
+      15
+    ],
+    "physical_solve_repeated": false
+  },
+  "audited_utc": "2026-10-14T11:33:32.315585+00:00",
+  "quantitative_paper_reproduction_achieved": false,
+  "parent_figure2_unchanged": true,
+  "parent_sde_unchanged": true,
+  "delivery_artifact_sha256": {
+    "final_audit.json": "344b3dbfc596059b4dcf93582131331a3e6c43c6e2a07e961a43a8a0459d5058",
+    "figure3_frame_metrics.csv": "4393b2a04c3bea582ca3c4fbdfef24b653ea680787f452f851bfe584473dce60",
+    "model_basis.json": "a95498aedb1c601043cfa216d3666c96ae4e7a4a018d9901754b7fb4ba27b734",
+    "data_units.json": "0ffa2c04e2a0c51744828be001356ca9660ffe2ae7d30e14a2c4d998e60be8a5",
+    "复现说明.txt": "796f53681de8d5c59b2d8963ced5616abd20d0efd51682e59af0e26224ede2ab",
+    "collect_figure3.tcl": "3aa20c697a7f883e701a0e253a3f21d04b9df1188b4fc7e4658df7d6d98d2c11",
+    "plot_figure3.py": "93387204dd905c7da525a92224e6ce12688004f4d4ac5a869e7deaaab443d814",
+    "figure3_comparison.png": "d3eda5727c84b5b74a40c9d7cafc8b625f0f096aa8b8edfde883c9d31a281b85",
+    "figure3_common_scale.png": "b101b2cb725963066d248c27283d2d7c2663b31c7c483546df9ba69c86f8a867",
+    "reference/paper_colormap.npy": "48735321811d98b1b9d5015d6d03ccb6cb354860cbdda3020c4057f08672b179",
+    "reference/paper_t248fs.png": "9c368f9dbc3933236d85bd1d62f74bc3f5d3b980723021ce59b9c25449f3beff",
+    "reference/paper_t268fs.png": "d7ca3de132ffd63cfc8c5325e3fd0880eddf2f99ad1ec8ae724e6a59ea3393be",
+    "reference/paper_t298fs.png": "db3ca78a50b8d087f307e0c9cb450f659d8b10a29b1c799097d6c648a19e0300",
+    "reference/paper_t318fs.png": "bc615ff7898f4b07e3ef8da71ab522214c5068bdf6e3994fa9861d263c501d5e",
+    "reference/reference_provenance.json": "484dd1a9e3d1b54e5a16856fc36e7af9392791404e566aff14d243d3364505ba"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-15T10:51:52.670974+00:00",
+  "scope": "Shao 2025 TED, 2D three slots: SDE and Figures 2,3,4,7",
+  "original_files_verified_before_curation": 318,
+  "all_selected_original_files_verified_again": 589,
+  "native_files": 226,
+  "native_bytes": 85853462,
+  "native_files_byte_identical_to_original_outputs": true,
+  "material_parameter_cards_and_nk_tables_excluded": true,
+  "no_paper_PDF_images_or_digitized_curves": true,
+  "no_full_tool_logs_or_credentials": true,
+  "source_paths_sanitized": true,
+  "four_simulation_only_figures_visually_inspected": true,
+  "public_python_tools_parse_and_prepare_copy_checked": true,
+  "quantitative_paper_reproduction_achieved": false,
+  "public_snapshot_independently_runnable_without_material_inputs": false,
+  "private_originals_modified": false
+}

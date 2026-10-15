@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.par
+optical_inputs.json
+native-backup/
+*.zip
+*.out
+*.log
+*.err
+*.job
+*.sta

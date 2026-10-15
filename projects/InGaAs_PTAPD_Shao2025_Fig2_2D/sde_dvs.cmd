@@ -1,0 +1,37 @@
+; Shao 2025 Figure 2 -- 2D THREE-SLOT optical surrogate, not a 3D PC.
+; Geometry follows the audited SDE layer thicknesses; X=paper x, Y=-paper z.
+(sde:clear)
+(sdegeo:set-auto-region-naming OFF)
+(sdegeo:set-default-boolean "ABA")
+(define a 0.625)
+(define r 0.250)
+(define h 0.220)
+(define D 0.080)
+(define xl -0.9375)
+(define xr 0.9375)
+(define (p x z) (position x (- z) 0))
+(define (rect z0 z1 material name)
+  (sdegeo:create-rectangle (p xl z1) (p xr z0) material name))
+(rect -3.020 -2.520 "Silicon" "R.HandleSi")
+(rect -2.520 -0.520 "Oxide" "R.BOX")
+(rect -0.520 -0.300 "Silicon" "R.SOISi")
+(rect -0.300 0.000 "SU8" "R.SU8Bond")
+(rect 0.000 0.100 "InGaAs" "R.PContact")
+(rect 0.100 0.350 "InGaAs" "R.Absorber")
+; Optical effective-medium approximation for the 50-nm grading layer.
+(rect 0.350 0.400 "AlInGaAs" "R.Grading")
+(rect 0.400 0.450 "InAlAs" "R.Charge")
+(rect 0.450 0.650 "InAlAs" "R.Multiplier")
+(rect 0.650 0.700 "InGaAs" "R.NContact")
+(rect 0.700 0.800 "SU8" "R.SU8Clad")
+(rect 0.800 1.500 "Gas" "R.Ambient")
+#if "@HoleCase@" == "PT"
+(do ((k 0 (+ k 1))) ((= k 3))
+  (define c (* (- k 1) a))
+  (sdegeo:create-polygon
+    (list (p (- c r) 0) (p (+ c r) 0)
+          (p (+ c (- r D)) h) (p (- c (- r D)) h))
+    "SU8" (string-append "R.PTHole" (number->string k))))
+#endif
+(sdeio:save-tdr-bnd "all" "@tdrboundary/o@")
+(display "SHAO_FIG2_2D_OPTICAL_BOUNDARY_COMPLETED")(newline)

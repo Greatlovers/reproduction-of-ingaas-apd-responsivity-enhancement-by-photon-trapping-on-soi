@@ -1,0 +1,113 @@
+{
+  "run_id": "Shao2025_Fig47_2D_20261015_bandalignfield3",
+  "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D",
+  "status": "audited_2d_field_with_avalanche",
+  "phase": "final_field_with_avalanche",
+  "dimension": 2,
+  "holes": 3,
+  "nodes": [
+    9,
+    17,
+    25
+  ],
+  "mesh_nodes": [
+    4,
+    12,
+    20
+  ],
+  "submitted_nodes": [
+    9,
+    17,
+    25
+  ],
+  "created_utc": "2026-10-15T02:57:46.773980+00:00",
+  "parents": {
+    "InGaAs_PTAPD_Shao2025_2D_3Hole": {
+      "manifest": "sde_run.json",
+      "manifest_sha256": "f064038109e96136c93b871257585c53d2d9dbca8c0ab25cd35481675b292016",
+      "source_sha256": {
+        "sde_dvs.cmd": "c8106b8449edb0a0f9d3a6d4eb82ae9e602baacc48ce84a2d2f3bae049cc190b",
+        "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+        "greadme": "a602c46bd5fe6e819c6ef7778fd406c645150c80562ed59eca74d9f2bc0292ff",
+        "model_basis.json": "45ace0ddc068e99da2ce7eb8ecf7ab7cac1bc17a011816b0fd6bf3aabec23cbd"
+      }
+    },
+    "InGaAs_PTAPD_Shao2025_Fig2_2D": {
+      "manifest": "figure2_run.json",
+      "manifest_sha256": "bc663d8de453908fb56bbcdf6c8c940d1efeb3e4acd9c0aeca816b421679ce90",
+      "source_sha256": {
+        "sde_dvs.cmd": "06fe71f522ff10d3085146cf3b2ba7047931862ceb49f9c1ec5dd2ea44654181",
+        "snmesh_msh.cmd": "333800e1d8b7147ba0d8b6a2316df222884dc73165b85a29c4922ba194519560",
+        "emw_eml.cmd": "730577fca906588a73172e77230bb7a880795e6177e375e9cda9f71b60d386b2",
+        "emw.par": "1e7278e756674f8bf59187848e2789c3b478a64f0549cbc5fc299e0d83d15d95",
+        "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+        "model_basis.json": "9289d99383ab97b95726afbc3424018bcb4d276d2350841066529b69828d4660",
+        "optical_inputs.json": "7748938fb0254e63eba9d42c3016f5ed71a9d80b118565157feb4c1bf82ae2d0",
+        "greadme": "7a0887bb90231948fdc2d5e8648e063df6b6619607afc34af61bee9dcd271ff8",
+        "run_figure2.py": "b82edc8b3d4daa7d1e650ff3093f0f915f0db2f205b11e645613a6b735c4e5fe",
+        "run_temporal_check.py": "284ffbc23b7b01a7e149c446bf071cae34d9381f36de754ab2892fd6735969a0",
+        "run_fixed_time_check.py": "f9e4b0bbbc8fd4ca4be2fdb501a20a9907d6a8515f23be3b20f98deaa1c09e32",
+        "run_production.py": "176ed2d3b36c85227df80ec8f6dc928e166d3b71d5575f7a59ce611a57f26778"
+      }
+    },
+    "InGaAs_PTAPD_Shao2025_Fig3_2D": {
+      "manifest": "figure3_run.json",
+      "manifest_sha256": "784c18d6190299b3b3137a83c1ebeca12683cdb735a4e943a64c1a1628eab8c4",
+      "source_sha256": {
+        "emw_eml.cmd": "bebae06c6673791dc93e6e530f05c8be509b65c6a6d8ec4ac352e53f1763abfc",
+        "run_figure3.py": "6ad1922f5992e993a9a330364872164775000d9b7498fff2b3e015d7e6906244",
+        "emw.par": "1e7278e756674f8bf59187848e2789c3b478a64f0549cbc5fc299e0d83d15d95",
+        "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+        "optical_inputs.json": "7748938fb0254e63eba9d42c3016f5ed71a9d80b118565157feb4c1bf82ae2d0",
+        "model_basis.json": "a95498aedb1c601043cfa216d3666c96ae4e7a4a018d9901754b7fb4ba27b734",
+        "greadme": "d58cb143cdd44ffdc65924cfdbefee28fe8820ff7fcaacb1bf95013e3d20b611",
+        "generate_optical_parameters.py": "b988e4682a5066ba670e6b320668d1f58e050aab190ea2877a12dce03ebb60d1",
+        "mesh_25nm.tdr": "2ae5eafc92a044ae28d3a3036ff27a76050a659ba77b80f1e25d50bf9712a779",
+        "mesh_20nm.tdr": "d4351f7f81a986a52882fa74ff8f3a8e845aad87f10db03c8b02a6266adc372a",
+        "source_geometry/sde_dvs.cmd": "06fe71f522ff10d3085146cf3b2ba7047931862ceb49f9c1ec5dd2ea44654181",
+        "source_geometry/snmesh_msh.cmd": "333800e1d8b7147ba0d8b6a2316df222884dc73165b85a29c4922ba194519560",
+        "source_geometry/model_basis.json": "9289d99383ab97b95726afbc3424018bcb4d276d2350841066529b69828d4660",
+        "collect_figure3.tcl": "3aa20c697a7f883e701a0e253a3f21d04b9df1188b4fc7e4658df7d6d98d2c11",
+        "plot_figure3.py": "93387204dd905c7da525a92224e6ce12688004f4d4ac5a869e7deaaab443d814"
+      }
+    }
+  },
+  "source_sha256": {
+    "sde_dvs.cmd": "5893f7e29424cca6bff4ea7423a0e40894c3b4b852b272d8d736d787ae20bb34",
+    "sdevice_des.cmd": "6704bcaff108fe8498019f43e6e4fb8fa87b10d427c784857580465dd423c4f7",
+    "sdevice.par": "fa6e6ded1299325b816ea313b22ac86c694a70ce9170d26cc09b1888fd35d62f",
+    "run_figure47.py": "4730def9d7ea3b792b8296c29afa815a21219999e163e64cdbfe9df7f6ebe97b",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "model_basis.json": "de2caf1bfcbb155b14398c33c5397708cfb9c6852e1434c1874f82c1e495e8fa",
+    "greadme": "f923c893007ff7f365e6de4d6b05a5bada7e9104b1055615ac3f286fa942809b"
+  },
+  "case_map_sha256": "efbd283ae80e9069085b8aa2f7c7abea9d59a162683df03b719d0d9845040f65",
+  "gtree_sha256": "f5271ca3c1ae008463d214d09469c9781ac08a5d5c6fa3b440d896bbfabbe57b",
+  "submitted_utc": "2026-10-15T04:29:44.587969+00:00",
+  "submitted_epoch_s": 1792038584.5879793,
+  "returned_utc": "2026-10-15T04:33:19.723339+00:00",
+  "attempt_history": [
+    {
+      "run_id": "Shao2025_Fig47_2D_20261015_fieldpilot1",
+      "reason": "All programs exited normally but Solve stalled near depletion/punch-through with low-density Newton oscillations. Control IV ended at 11.9 V; no 23.8 V field accepted. Increased carrier ErrRef to standard 1e8 while retaining 5 digits, and enabled corrected Fermi thermionic Formula=1 per native warning. Meshes, doping and recombination unchanged."
+    },
+    {
+      "run_id": "Shao2025_Fig47_2D_20261015_fieldsolverfix1",
+      "reason": "Low-density HFS oscillation isolated: SUPER alone failed at 12.138 V, documented HFS-only n0=p0=1e8 regularization reached 23.8 V on identical mesh/parameters. Promote this setting and refine charge/multiplier locally for field resolution."
+    },
+    {
+      "run_id": "Shao2025_Fig47_2D_20261015_hfs_meshfix2",
+      "reason": "Recompute all field nodes with corrected grade endpoints and the same avalanche card as final transport, so the primary field engineering project is self-consistent; reuse unchanged SDE meshes."
+    }
+  ],
+  "reused_mesh_nodes": [
+    4,
+    12,
+    20
+  ],
+  "quantitative_paper_reproduction_achieved": false,
+  "final_audit_utc": "2026-10-15T04:51:04.138480+00:00",
+  "final_field_with_avalanche_project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback",
+  "note": "Final field feedback branch and production transport are being recomputed with corrected grading band alignment; original mesh baseline unchanged.",
+  "independent_field_check_project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig4_Fig7_2D/diagnostics/avalanche_feedback"
+}

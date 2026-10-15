@@ -1,0 +1,80 @@
+{
+  "paper_doi": "10.1109/TED.2025.3544972",
+  "target": "Figure 3 transient field snapshots at 24.8, 26.8, 29.8, 31.8 fs",
+  "dimensionality": 2,
+  "PT_holes": 3,
+  "control": "Figure 3 runs only the PT geometry; the no-hole control remains in the parent Figure 2 project.",
+  "scope": "EMW FDTD transient Plot, sine/cosine quadrature optical intensity; no steady-state extractor or SDevice",
+  "original_paper_optics": "3D periodic unit cell; E parallel to paper y",
+  "surrogate": "three translational slots, X periodic, depth CPML; TM in EMW 2D means E along out-of-plane coordinate",
+  "coordinate_mapping": "optical X=paper x, Y=-paper z, out-of-plane optical Z=paper y",
+  "parent_sde": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_2D_3Hole",
+  "parent_source_sha256": "c8106b8449edb0a0f9d3a6d4eb82ae9e602baacc48ce84a2d2f3bae049cc190b",
+  "wavelengths_nm": [
+    1615
+  ],
+  "optical_inputs": {
+    "InGaAs": "linear lambda and Ga-fraction interpolation of installed InGaAs CRI tables at xGa=0.47",
+    "InAlAs": "installed constant-index model interpolated at xAl=0.48; lossless",
+    "Silicon_Oxide": "linear wavelength interpolation of installed CRI tables",
+    "SU8": "assumed n=1.57,k=0",
+    "grading": "homogeneous optical effective layer, mean n,k of InGaAs and InAlAs across 50 nm, replacing the parent composition staircases only in this optical surrogate",
+    "free_carrier_optics": "not included; no author doping/optical constants table available"
+  },
+  "geometry_assumptions": "same estimated contact/charge/grade thicknesses and assumed BOX, truncated handle, top SU8, hole SU8 filling as parent model_basis.json",
+  "data_provenance": {
+    "installed_database_hashes": {
+      "InGaAs.par": "ea1aadb7ee78adab95f85eb6766af15986878886a8ed1de643dfcc556bc7ee27",
+      "InAlAs.par": "bdaba8a95a0b6fd26d40868d2f71b8e7ddfa9537426274611e664cc1a5fa1f52",
+      "Silicon.par": "ce02ba3cc28d8b1319ae070315371469fc4f97c4834d9a72d23f99f686108790",
+      "Oxide.par": "1fcb91c12e98e3969cc3fd3b9c6b76f09457d955ed42ad536ba1fd18a6ff23fb"
+    },
+    "no_full_database_copy_in_project": true
+  },
+  "paper_targets": {
+    "snapshot_times_fs": [
+      24.8,
+      26.8,
+      29.8,
+      31.8
+    ],
+    "source_height_above_III_V_nm": 550
+  },
+  "parent_figure2_project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig2_2D",
+  "parent_figure2_run_id": "Shao2025_Fig2_2D_20261014_production7",
+  "wavelength_nm": 1615,
+  "wavelength_basis": "continuation of the Figure 2 resonance wavelength; Figure 3 does not restate wavelength",
+  "source_height_above_III_V_nm": 550,
+  "source_plane_Y_um": -1.25,
+  "III_V_top_z_um": 0.7,
+  "time_zero": "harmonic source activation, Delay=0",
+  "source_signal": {
+    "Signal": "Harmonic",
+    "NRise": 8,
+    "Intensity_W_cm2": 1.0,
+    "envelope_basis": "same NRise=8 as existing Figure 2; paper does not provide rise/phase details"
+  },
+  "time_snapshots_fs": [
+    24.8,
+    26.8,
+    29.8,
+    31.8
+  ],
+  "mesh_provenance": {
+    "25": {
+      "parent_native_mesh": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig2_2D/n4_msh.tdr",
+      "local_mesh": "mesh_25nm.tdr",
+      "sha256": "2ae5eafc92a044ae28d3a3036ff27a76050a659ba77b80f1e25d50bf9712a779"
+    },
+    "20": {
+      "parent_native_mesh": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_Fig2_2D/n56_msh.tdr",
+      "local_mesh": "mesh_20nm.tdr",
+      "sha256": "d4351f7f81a986a52882fa74ff8f3a8e845aad87f10db03c8b02a6266adc372a"
+    }
+  },
+  "normalization": "store physical field; report both framewise |E|^2/max_frame and common |E|^2/max_all_frames; no amplitude fitting or time shift",
+  "snapshot_method": "independent, identical FDTD runs from t=0; fixed integer time-step endpoint and FinalPlot=Yes; no time shifting or changing models between frames",
+  "monitor_tick_interval": 25,
+  "monitor_note": "monitor decimation affects diagnostic sampling only, not the FDTD update or endpoint field",
+  "Yee_time_staggering": "Final E field is inferred from native monitor Time/TickStep relation at duration-dt/2; baseline offset 0.005 fs, time-step check offset 0.0025 fs. Plots use the requested times rounded to 0.1 fs, without time translation."
+}

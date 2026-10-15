@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the original Shao paper and identify this independent 2D baseline."
+title: "Shao 2025 InGaAs PT-APD: Sentaurus 2D baseline"
+type: software
+version: 0.1.0
+date-released: 2026-10-15
+authors:
+  - family-names: Greatlovers
+license: MIT
+repository-code: https://github.com/Greatlovers/ingaas-ptapd-shao2025-sentaurus-reproduction
+references:
+  - type: article
+    title: "Efficient Responsivity Enhancement of Surface-Illuminated InGaAs Avalanche Photodiode by Photon Trapping on the SOI Substrate"
+    authors:
+      - family-names: Shao
+        given-names: Rui
+    year: 2025
+    doi: 10.1109/TED.2025.3544972
+    journal: IEEE Transactions on Electron Devices

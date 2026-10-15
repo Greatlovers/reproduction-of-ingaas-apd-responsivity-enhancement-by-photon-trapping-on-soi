@@ -1,0 +1,67 @@
+{
+  "run_id": "Shao2025_2D_3Hole_20261013_coarse2",
+  "project": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_2D_3Hole",
+  "node": 19,
+  "status": "audited_sde_mesh",
+  "created_utc": "2026-10-13T08:19:59.063444+00:00",
+  "dimension": 2,
+  "holes": 3,
+  "source_sha256": {
+    "sde_dvs.cmd": "c8106b8449edb0a0f9d3a6d4eb82ae9e602baacc48ce84a2d2f3bae049cc190b",
+    "datexcodes.txt": "deb630921f8831aaf0e1f1627871ae162319bf512e363ee809ca578adf73598c",
+    "greadme": "a602c46bd5fe6e819c6ef7778fd406c645150c80562ed59eca74d9f2bc0292ff",
+    "model_basis.json": "45ace0ddc068e99da2ce7eb8ecf7ab7cac1bc17a011816b0fd6bf3aabec23cbd"
+  },
+  "submitted_utc": "2026-10-13T08:53:16.692255+00:00",
+  "submitted_epoch_s": 1791881596.69227,
+  "workbench_result_repr": "None",
+  "workbench_returned_utc": "2026-10-13T08:53:28.132828+00:00",
+  "excluded_attempts": [
+    {
+      "reason": "API expects node list; string 19 selected virtual nodes 1 and 9; no SDE or mesh was executed",
+      "submitted_utc": "2026-10-13T08:21:23.378901+00:00",
+      "returned_utc": "2026-10-13T08:21:28.560917+00:00"
+    },
+    {
+      "reason": "ACIS internal boundary returns one contact edge per neighboring material; 8 paired anode/2 paired cathode entities represent 4/1 physical segments; assertion used external-boundary counts",
+      "submitted_utc": "2026-10-13T08:24:20.142316+00:00",
+      "returned_utc": "2026-10-13T08:24:28.642402+00:00"
+    }
+  ],
+  "previous_successful_mesh": {
+    "run_id": "Shao2025_2D_3Hole_20261013_sde1",
+    "vertices": 22417,
+    "triangles": 44376,
+    "backup": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_2D_3Hole/backups/dense_mesh_20261013",
+    "reason": "User requested fewer vertices"
+  },
+  "previous_mesh_history": [
+    {
+      "run_id": "Shao2025_2D_3Hole_20261013_sde1",
+      "vertices": 22417,
+      "triangles": 44376,
+      "backup": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_2D_3Hole/backups/dense_mesh_20261013",
+      "reason": "User requested fewer vertices"
+    },
+    {
+      "run_id": "Shao2025_2D_3Hole_20261013_coarse1",
+      "vertices": 6023,
+      "backup": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_2D_3Hole/backups/coarse1_before_coarse2",
+      "reason": "Further reduce mesh toward 3000-5000 target"
+    }
+  ],
+  "audited_utc": "2026-10-13T09:02:23.163447+00:00",
+  "audit_summary": {
+    "dimension": 2,
+    "holes": 3,
+    "vertices": 2607,
+    "triangles": 5046,
+    "bulk_regions": 24,
+    "vertex_reduction_percent": 88.37043315341036,
+    "geometry_doping_composition_contacts_passed": true,
+    "mesh_audit_sha256": "9585a2f962210b8f532512d96c2555f46127ec18a26363df551f84514b97ce44",
+    "native_tdr_sha256": "45cdad9b0b46e993b74ea08800677a212bdad9ba8cb207e9c004a00fdb296170",
+    "expanded_command_sha256": "09a36cee617b2a7040b40bbf4cf62e7859ac3561314dbaba678c57162b4afd3c",
+    "sdevice_run": false
+  }
+}

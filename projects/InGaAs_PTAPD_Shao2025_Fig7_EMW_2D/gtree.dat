@@ -1,0 +1,26 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vX-2025.06, saved by gsub0
+
+# --- simulation flow
+emw emw "" {}
+emw Geometry "Control" {Control Slanted} V
+emw Lambda_nm "1550" {1550 1626} V
+emw Angle_deg "10" {10 0} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default Geometry ""
+scenario default Lambda_nm ""
+scenario default Angle_deg ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {Control} {default} 0
+2 7 2 {1550} {default} 0
+3 3 7 {10} {default} 0
+3 10 7 {0} {default} 0
+1 4 1 {Slanted} {default} 0
+2 8 4 {1550} {default} 0
+3 5 8 {10} {default} 0
+3 11 8 {0} {default} 0
+2 9 4 {1626} {default} 0
+3 6 9 {10} {default} 0
+3 12 9 {0} {default} 0

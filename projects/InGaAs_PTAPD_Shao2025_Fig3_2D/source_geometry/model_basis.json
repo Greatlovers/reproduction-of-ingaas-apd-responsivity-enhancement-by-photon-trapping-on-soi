@@ -1,0 +1,65 @@
+{
+  "paper_doi": "10.1109/TED.2025.3544972",
+  "target": "Figure 2(a) spectra and (b) |E|^2 at 1615 nm",
+  "dimensionality": 2,
+  "PT_holes": 3,
+  "control": "same layers without holes",
+  "scope": "EMW FDTD, no SDevice/avalanche; eta=1",
+  "original_paper_optics": "3D periodic unit cell; E parallel to paper y",
+  "surrogate": "three translational slots, X periodic, depth CPML; TM in EMW 2D means E along out-of-plane coordinate",
+  "coordinate_mapping": "optical X=paper x, Y=-paper z, out-of-plane optical Z=paper y",
+  "parent_sde": "__PROJECT_ROOT__/InGaAs_PTAPD_Shao2025_2D_3Hole",
+  "parent_source_sha256": "c8106b8449edb0a0f9d3a6d4eb82ae9e602baacc48ce84a2d2f3bae049cc190b",
+  "wavelengths_nm": [
+    1520,
+    1525,
+    1530,
+    1535,
+    1540,
+    1545,
+    1550,
+    1555,
+    1560,
+    1565,
+    1570,
+    1575,
+    1580,
+    1585,
+    1590,
+    1595,
+    1600,
+    1605,
+    1610,
+    1615,
+    1620,
+    1625,
+    1630
+  ],
+  "responsivity": "R=A_absorber*q*lambda/(h*c), eta=1. Contact/grade absorption excluded from numerator. No empirical scale factor.",
+  "optical_inputs": {
+    "InGaAs": "linear lambda and Ga-fraction interpolation of installed InGaAs CRI tables at xGa=0.47",
+    "InAlAs": "installed constant-index model interpolated at xAl=0.48; lossless",
+    "Silicon_Oxide": "linear wavelength interpolation of installed CRI tables",
+    "SU8": "assumed n=1.57,k=0",
+    "grading": "homogeneous optical effective layer, mean n,k of InGaAs and InAlAs across 50 nm, replacing the parent composition staircases only in this optical surrogate",
+    "free_carrier_optics": "not included; no author doping/optical constants table available"
+  },
+  "geometry_assumptions": "same estimated contact/charge/grade thicknesses and assumed BOX, truncated handle, top SU8, hole SU8 filling as parent model_basis.json",
+  "data_provenance": {
+    "installed_database_hashes": {
+      "InGaAs.par": "ea1aadb7ee78adab95f85eb6766af15986878886a8ed1de643dfcc556bc7ee27",
+      "InAlAs.par": "bdaba8a95a0b6fd26d40868d2f71b8e7ddfa9537426274611e664cc1a5fa1f52",
+      "Silicon.par": "ce02ba3cc28d8b1319ae070315371469fc4f97c4834d9a72d23f99f686108790",
+      "Oxide.par": "1fcb91c12e98e3969cc3fd3b9c6b76f09457d955ed42ad536ba1fd18a6ff23fb"
+    },
+    "no_full_database_copy_in_project": true
+  },
+  "paper_targets": {
+    "PT_peak_wavelength_nm": 1615,
+    "PT_peak_responsivity_A_per_W": 0.87,
+    "spectrum_nm": [
+      1520,
+      1630
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vX-2025.06, saved by gsub0
+
+# --- simulation flow
+emw emw "" {}
+emw Mesh_nm "25" {25 20} V
+emw TimeStep_fs "0.01" {0.01 0.005} V
+emw Snapshot_fs "24.8" {24.8 26.8 29.8 31.8} R
+# --- variables
+# --- scenarios and parameter specs
+scenario default Mesh_nm ""
+scenario default TimeStep_fs ""
+scenario default Snapshot_fs ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {25} {default} 0
+2 7 2 {0.01} {default} 0
+3 3 7 {24.8} {default} 0
+3 10 7 {26.8} {default} 0
+3 11 7 {29.8} {default} 0
+3 12 7 {31.8} {default} 0
+2 8 2 {0.005} {default} 0
+3 6 8 {24.8} {default} 0
+3 16 8 {26.8} {default} 0
+3 17 8 {29.8} {default} 0
+3 18 8 {31.8} {default} 0
+1 4 1 {20} {default} 0
+2 9 4 {0.01} {default} 0
+3 5 9 {24.8} {default} 0
+3 13 9 {26.8} {default} 0
+3 14 9 {29.8} {default} 0
+3 15 9 {31.8} {default} 0

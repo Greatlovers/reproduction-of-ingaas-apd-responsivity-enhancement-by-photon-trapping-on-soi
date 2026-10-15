@@ -1,0 +1,143 @@
+{
+  "dimension": 2,
+  "holes": 3,
+  "quantitative_paper_reproduction_achieved": false,
+  "status": "audited native 2D baseline with explicit single-anchor ionization calibration; remaining physical and numerical differences",
+  "responsivities": [
+    {
+      "geometry": "Control",
+      "wavelength_nm": 1550,
+      "paper_R_A_W": 0.3,
+      "simulated": {
+        "20": {
+          "node": 33,
+          "R_origin_fit_A_W": 0.21802826529975583,
+          "R_at_IV_power_A_W": 0.20466915960134374,
+          "R_points_A_W": [
+            0.1983427453215821,
+            0.20466915960134374,
+            0.21819543320354493,
+            0.22091953527951738,
+            0.21775263629522948
+          ],
+          "maximum_relative_deviation_from_fit": 0.09028884374743389,
+          "relative_error_vs_paper_slope": -0.2732391156674805,
+          "EQE_percent_from_fit": 17.440038521917003
+        },
+        "23.8": {
+          "node": 47,
+          "R_origin_fit_A_W": 0.2323772839176804,
+          "R_at_IV_power_A_W": 0.23428438701512994,
+          "R_points_A_W": [
+            0.22908385651400198,
+            0.23428438701512994,
+            0.23572493889592191,
+            0.23539643899482457,
+            0.23204014004229523
+          ],
+          "maximum_relative_deviation_from_fit": 0.014406119745454296,
+          "relative_error_vs_paper_slope": -0.225409053607732,
+          "EQE_percent_from_fit": 18.58781372943084
+        }
+      }
+    },
+    {
+      "geometry": "Slanted",
+      "wavelength_nm": 1550,
+      "paper_R_A_W": 0.39,
+      "simulated": {
+        "20": {
+          "node": 39,
+          "R_origin_fit_A_W": 0.32915734869291896,
+          "R_at_IV_power_A_W": 0.2850292047809348,
+          "R_points_A_W": [
+            0.28449490822762674,
+            0.2850292047809348,
+            0.29109223205455736,
+            0.30288963185756484,
+            0.33221489606783583
+          ],
+          "maximum_relative_deviation_from_fit": 0.13568720444081353,
+          "relative_error_vs_paper_slope": -0.15600679822328478,
+          "EQE_percent_from_fit": 26.329232281347714
+        },
+        "23.8": {
+          "node": 50,
+          "R_origin_fit_A_W": 0.342816424276451,
+          "R_at_IV_power_A_W": 0.30740429438627637,
+          "R_points_A_W": [
+            0.28705226773037723,
+            0.30740429438627637,
+            0.31746087528714023,
+            0.3222245656574139,
+            0.3451713541521433
+          ],
+          "maximum_relative_deviation_from_fit": 0.16266477507245947,
+          "relative_error_vs_paper_slope": -0.12098352749627961,
+          "EQE_percent_from_fit": 27.42181907977527
+        }
+      }
+    },
+    {
+      "geometry": "Slanted",
+      "wavelength_nm": 1626,
+      "paper_R_A_W": 0.75,
+      "simulated": {
+        "20": {
+          "node": 44,
+          "R_origin_fit_A_W": 0.6904070660296883,
+          "R_at_IV_power_A_W": 0.6575130156151577,
+          "R_points_A_W": [
+            0.6424932852926307,
+            0.6575130156151577,
+            0.6880681413971909,
+            0.6920370083070476,
+            0.6903050719434198
+          ],
+          "maximum_relative_deviation_from_fit": 0.0693993197557993,
+          "relative_error_vs_paper_slope": -0.07945724529374898,
+          "EQE_percent_from_fit": 52.64425994729919
+        },
+        "23.8": {
+          "node": 53,
+          "R_origin_fit_A_W": 0.7116090290620725,
+          "R_at_IV_power_A_W": 0.7266202655977076,
+          "R_points_A_W": [
+            0.6893797403756465,
+            0.7266202655977076,
+            0.7372389661255931,
+            0.7275171531961406,
+            0.7097482090069039
+          ],
+          "maximum_relative_deviation_from_fit": 0.03601688007992524,
+          "relative_error_vs_paper_slope": -0.05118796125057001,
+          "EQE_percent_from_fit": 54.260931774962465
+        }
+      }
+    }
+  ],
+  "breakdown_proxy_definition": "10 µA dark current, not the experimental authors breakdown-extraction algorithm",
+  "control_breakdown_proxy_V": 23.83339977801811,
+  "PT_composite_breakdown_proxy_V": 23.833426157157465,
+  "PT_local_strip_uniform_mesa_proxy_V": 25.85080316217435,
+  "dark_comparison_at_paper_90percent_breakdown": {
+    "Control": {
+      "bias_V": 21.6,
+      "simulation_A": 5.5968714222363617e-08,
+      "paper_A": 1.69e-08
+    },
+    "PT_composite": {
+      "bias_V": 21.78,
+      "simulation_A": 7.872856266313672e-08,
+      "paper_A": 5.13e-08
+    }
+  },
+  "normalization": {
+    "strip_um2": 1.875,
+    "mesa_um2": 706.8583470577034,
+    "PC_um2": 156.25,
+    "spot_um2": 84.94866535306801,
+    "IV_power_W": 3.235936569296281e-07
+  },
+  "low_bias_current_filter": "Omit points whose electrode KCL residual exceeds max(1e-16 A/um, 0.1% of terminal current); all raw native points retained in CSV. No low-bias leakage mechanisms beyond SRH/Auger/radiative/surface SRH."
+}
